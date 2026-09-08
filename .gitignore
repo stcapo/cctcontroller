@@ -1,9 +1,0 @@
-# macOS
-.DS_Store
-
-# 设备专属敏感文件（含 Matter 设备私钥/配网码，严禁入库）
-**/Devices/
-*.zip
-
-# 临时/未整理
-tmp/

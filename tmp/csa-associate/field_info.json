@@ -1,0 +1,167 @@
+[
+  {
+    "field_id": "Legal Corporate Name Associate",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      360.588,
+      531.033,
+      548.052,
+      571.527
+    ]
+  },
+  {
+    "field_id": "Street Address 1",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      344.359,
+      497.582,
+      547.767,
+      524.28
+    ]
+  },
+  {
+    "field_id": "Street Address 2",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      344.661,
+      465.017,
+      548.292,
+      492.24
+    ]
+  },
+  {
+    "field_id": "CityTown RegionState Postal Code",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      328.072,
+      420.215,
+      549.103,
+      459.012
+    ]
+  },
+  {
+    "field_id": "Country",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      304.072,
+      386.268,
+      549.869,
+      412.44
+    ]
+  },
+  {
+    "field_id": "Contact Name",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      332.164,
+      355.068,
+      548.292,
+      380.189
+    ]
+  },
+  {
+    "field_id": "Corporate Email",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      341.313,
+      324.513,
+      548.292,
+      350.16
+    ]
+  },
+  {
+    "field_id": "Corporate Phone",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      345.228,
+      291.993,
+      548.292,
+      318.166
+    ]
+  },
+  {
+    "field_id": "Corporate Website",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      354.199,
+      258.948,
+      548.818,
+      285.12
+    ]
+  },
+  {
+    "field_id": "Signature",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      139.788,
+      132.679,
+      282.898,
+      152.892
+    ]
+  },
+  {
+    "field_id": "Signature_2",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      348.182,
+      131.628,
+      541.001,
+      153.943
+    ]
+  },
+  {
+    "field_id": "Title_2",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      324.638,
+      103.428,
+      542.578,
+      127.44
+    ]
+  },
+  {
+    "field_id": "Title",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      110.582,
+      102.902,
+      282.898,
+      126.914
+    ]
+  },
+  {
+    "field_id": "Date_2",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      325.295,
+      75.3477,
+      543.103,
+      99.2399
+    ]
+  },
+  {
+    "field_id": "Date",
+    "type": "text",
+    "page": 1,
+    "rect": [
+      113.222,
+      74.8222,
+      282.372,
+      98.1889
+    ]
+  }
+]
