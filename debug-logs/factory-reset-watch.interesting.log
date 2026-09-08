@@ -1,0 +1,1138 @@
+# serial capture start 2026-08-20 11:13:33.748
+# port=/dev/cu.usbserial-14220 baud=74880 filter=factory-reset
+2026-08-20 11:13:39.826 | zero_code_product: enter main: 376 ms
+2026-08-20 11:13:39.826 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:13:39.826 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 11:13:39.827 | light_matter: restore done: 523 ms
+2026-08-20 11:13:39.827 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 11:13:39.827 | zero_code_utils: Chip: esp32c2
+2026-08-20 11:13:39.827 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 11:13:39.963 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 11:13:39.963 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 11:13:39.963 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 11:13:39.963 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 11:13:39.963 | zero_code_utils: RainMaker Node ID: e99a1c09-7c0a-4572-90df-8c5d4f6582e1
+2026-08-20 11:13:39.963 | zero_code_utils: Matter Serial Number: e99a1c097c0a457290df8c5d4f6582e1
+2026-08-20 11:13:39.963 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 11:13:40.436 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":0,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-20 11:13:41.245 | matter_one_core: Current Free Memory: 31056, Minimum Ever Free Size: 29520, Largest Free Block: 22016
+2026-08-20 11:13:42.052 | matter_one_core: Current Free Memory: 29036, Minimum Ever Free Size: 28964, Largest Free Block: 19968
+2026-08-20 11:13:42.053 | matter_one_core: Current Free Memory: 29200, Minimum Ever Free Size: 28964, Largest Free Block: 19968
+2026-08-20 11:13:42.053 | matter_one_core: Current Free Memory: 33760, Minimum Ever Free Size: 28964, Largest Free Block: 19968
+2026-08-20 11:13:42.053 | After CORE TYPE START: Current Free Memory: 50532, Minimum Ever Free Size: 28964, Largest Free Block: 19968
+2026-08-20 11:13:42.053 | zero_code_product: Current Free Memory: 50532, Minimum Ever Free Size: 28964, Largest Free Block: 19968
+2026-08-20 11:13:43.474 | matter_one_core: Current Free Memory: 60028, Minimum Ever Free Size: 28964, Largest Free Block: 22016
+2026-08-20 11:13:44.088 | matter_one_core: Current Free Memory: 69900, Minimum Ever Free Size: 38968, Largest Free Block: 22016
+2026-08-20 11:13:44.905 | zero_code_utils: Resetting reboot count
+2026-08-20 11:13:44.905 | zero_code_utils: Current Free Memory: 69908, Minimum Ever Free Size: 37272, Largest Free Block: 22016
+2026-08-20 11:13:45.920 | matter_one_core: Current Free Memory: 70192, Minimum Ever Free Size: 37272, Largest Free Block: 22016
+2026-08-20 11:13:47.143 | matter_one_core: Current Free Memory: 69280, Minimum Ever Free Size: 33928, Largest Free Block: 22016
+2026-08-20 11:13:47.344 | matter_one_core: Current Free Memory: 69280, Minimum Ever Free Size: 33928, Largest Free Block: 22016
+2026-08-20 11:13:48.360 | matter_one_core: Current Free Memory: 68876, Minimum Ever Free Size: 33928, Largest Free Block: 22016
+2026-08-20 11:13:48.360 | matter_one_core: Current Free Memory: 68840, Minimum Ever Free Size: 33928, Largest Free Block: 22016
+2026-08-20 11:13:48.360 | matter_one_core: Current Free Memory: 63804, Minimum Ever Free Size: 29308, Largest Free Block: 22016
+2026-08-20 11:13:48.563 | matter_one_core: Current Free Memory: 64688, Minimum Ever Free Size: 29308, Largest Free Block: 22016
+2026-08-20 11:13:52.228 | zero_code_product: enter main: 376 ms
+2026-08-20 11:13:52.229 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:13:52.229 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 11:13:52.374 | light_matter: restore done: 523 ms
+2026-08-20 11:13:52.375 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 11:13:52.375 | zero_code_utils: Chip: esp32c2
+2026-08-20 11:13:52.375 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 11:13:52.375 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 11:13:52.375 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 11:13:52.375 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 11:13:52.375 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 11:13:52.375 | zero_code_utils: RainMaker Node ID: e99a1c09-7c0a-4572-90df-8c5d4f6582e1
+2026-08-20 11:13:52.375 | zero_code_utils: Matter Serial Number: e99a1c097c0a457290df8c5d4f6582e1
+2026-08-20 11:13:52.376 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 11:13:52.852 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":0,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-20 11:13:54.270 | matter_one_core: Current Free Memory: 29308, Minimum Ever Free Size: 27772, Largest Free Block: 20480
+2026-08-20 11:13:54.474 | matter_one_core: Current Free Memory: 29308, Minimum Ever Free Size: 27772, Largest Free Block: 20480
+2026-08-20 11:13:54.474 | matter_one_core: Current Free Memory: 29224, Minimum Ever Free Size: 27772, Largest Free Block: 20480
+2026-08-20 11:13:54.474 | matter_one_core: Current Free Memory: 50644, Minimum Ever Free Size: 27772, Largest Free Block: 20480
+2026-08-20 11:13:54.474 | After CORE TYPE START: Current Free Memory: 50556, Minimum Ever Free Size: 27772, Largest Free Block: 20480
+2026-08-20 11:13:54.474 | zero_code_product: Current Free Memory: 50556, Minimum Ever Free Size: 27772, Largest Free Block: 20480
+2026-08-20 11:13:57.728 | zero_code_product: enter main: 376 ms
+2026-08-20 11:13:57.729 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:13:57.729 | zero_code_utils: Reboot count: 2, reset reason: 1
+2026-08-20 11:13:57.861 | light_matter: restore done: 523 ms
+2026-08-20 11:13:57.861 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 11:13:57.861 | zero_code_utils: Chip: esp32c2
+2026-08-20 11:13:57.861 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 11:13:57.862 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 11:13:57.862 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 11:13:57.862 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 11:13:57.862 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 11:13:57.862 | zero_code_utils: RainMaker Node ID: e99a1c09-7c0a-4572-90df-8c5d4f6582e1
+2026-08-20 11:13:57.862 | zero_code_utils: Matter Serial Number: e99a1c097c0a457290df8c5d4f6582e1
+2026-08-20 11:13:57.862 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 11:13:58.339 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":0,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-20 11:13:59.152 | matter_one_core: Current Free Memory: 32052, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 11:13:59.153 | matter_one_core: Current Free Memory: 32052, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 11:13:59.153 | matter_one_core: Current Free Memory: 31968, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 11:13:59.153 | matter_one_core: Current Free Memory: 53388, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 11:13:59.153 | After CORE TYPE START: Current Free Memory: 53300, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 11:13:59.153 | zero_code_product: Current Free Memory: 53300, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 11:14:01.182 | matter_one_core: Current Free Memory: 70252, Minimum Ever Free Size: 40520, Largest Free Block: 23040
+2026-08-20 11:14:01.384 | matter_one_core: Current Free Memory: 70312, Minimum Ever Free Size: 40376, Largest Free Block: 23040
+2026-08-20 11:14:03.619 | zero_code_product: enter main: 376 ms
+2026-08-20 11:14:03.619 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:14:03.620 | zero_code_utils: Reboot count: 3, reset reason: 1
+2026-08-20 11:14:03.754 | light_matter: restore done: 523 ms
+2026-08-20 11:14:03.754 | zero_code_core: Current Free Memory: 94336, Minimum Ever Free Size: 94336, Largest Free Block: 83968
+2026-08-20 11:14:03.754 | zero_code_utils: Chip: esp32c2
+2026-08-20 11:14:03.755 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 11:14:03.755 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 11:14:03.755 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 11:14:03.755 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 11:14:03.755 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 11:14:03.755 | zero_code_utils: RainMaker Node ID: e99a1c09-7c0a-4572-90df-8c5d4f6582e1
+2026-08-20 11:14:03.755 | zero_code_utils: Matter Serial Number: e99a1c097c0a457290df8c5d4f6582e1
+2026-08-20 11:14:03.755 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 11:14:04.232 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":0,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-20 11:14:05.049 | matter_one_core: Current Free Memory: 30580, Minimum Ever Free Size: 29044, Largest Free Block: 21504
+2026-08-20 11:14:05.862 | matter_one_core: Current Free Memory: 28960, Minimum Ever Free Size: 28888, Largest Free Block: 19456
+2026-08-20 11:14:05.862 | matter_one_core: Current Free Memory: 28912, Minimum Ever Free Size: 28812, Largest Free Block: 19456
+2026-08-20 11:14:05.862 | matter_one_core: Current Free Memory: 50556, Minimum Ever Free Size: 28812, Largest Free Block: 19968
+2026-08-20 11:14:05.862 | After CORE TYPE START: Current Free Memory: 50468, Minimum Ever Free Size: 28812, Largest Free Block: 19968
+2026-08-20 11:14:05.863 | zero_code_product: Current Free Memory: 50468, Minimum Ever Free Size: 28812, Largest Free Block: 19968
+2026-08-20 11:14:06.065 | matter_one_core: Current Free Memory: 59188, Minimum Ever Free Size: 28812, Largest Free Block: 21504
+2026-08-20 11:14:06.065 | matter_one_core: Current Free Memory: 59188, Minimum Ever Free Size: 28812, Largest Free Block: 21504
+2026-08-20 11:14:07.281 | matter_one_core: Current Free Memory: 58776, Minimum Ever Free Size: 28812, Largest Free Block: 21504
+2026-08-20 11:14:07.281 | matter_one_core: Current Free Memory: 58776, Minimum Ever Free Size: 28812, Largest Free Block: 21504
+2026-08-20 11:14:07.281 | matter_one_core: Current Free Memory: 55464, Minimum Ever Free Size: 28812, Largest Free Block: 21504
+2026-08-20 11:14:07.281 | matter_one_core: Current Free Memory: 55464, Minimum Ever Free Size: 28812, Largest Free Block: 21504
+2026-08-20 11:14:07.685 | matter_one_core: Current Free Memory: 66252, Minimum Ever Free Size: 38816, Largest Free Block: 21504
+2026-08-20 11:14:08.696 | zero_code_utils: Resetting reboot count
+2026-08-20 11:14:08.697 | zero_code_utils: Current Free Memory: 66268, Minimum Ever Free Size: 35376, Largest Free Block: 21504
+2026-08-20 11:14:10.728 | zero_code_product: enter main: 376 ms
+2026-08-20 11:14:10.728 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:14:10.728 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 11:14:10.729 | light_matter: restore done: 492 ms
+2026-08-20 11:14:13.774 | zero_code_core: Current Free Memory: 94676, Minimum Ever Free Size: 66860, Largest Free Block: 59392
+2026-08-20 11:14:13.774 | zero_code_utils: Chip: esp32c2
+2026-08-20 11:14:13.775 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 11:14:13.775 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 11:14:13.775 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 11:14:13.775 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 11:14:13.775 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 11:14:13.775 | zero_code_utils: RainMaker Node ID: e99a1c09-7c0a-4572-90df-8c5d4f6582e1
+2026-08-20 11:14:13.775 | zero_code_utils: Matter Serial Number: e99a1c097c0a457290df8c5d4f6582e1
+2026-08-20 11:14:13.775 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 11:14:14.252 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":0,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-20 11:14:14.846 | matter_one_core: Current Free Memory: 31888, Minimum Ever Free Size: 30352, Largest Free Block: 23040
+2026-08-20 11:14:14.846 | matter_one_core: Current Free Memory: 31888, Minimum Ever Free Size: 30352, Largest Free Block: 23040
+2026-08-20 11:14:14.846 | matter_one_core: Current Free Memory: 31888, Minimum Ever Free Size: 30352, Largest Free Block: 23040
+2026-08-20 11:14:14.846 | matter_one_core: Current Free Memory: 31804, Minimum Ever Free Size: 30352, Largest Free Block: 23040
+2026-08-20 11:14:14.846 | matter_one_core: Current Free Memory: 31804, Minimum Ever Free Size: 30352, Largest Free Block: 23040
+2026-08-20 11:14:15.048 | After CORE TYPE START: Current Free Memory: 31716, Minimum Ever Free Size: 30352, Largest Free Block: 23040
+2026-08-20 11:14:15.049 | zero_code_product: Current Free Memory: 31716, Minimum Ever Free Size: 30352, Largest Free Block: 23040
+2026-08-20 11:14:17.487 | zero_code_product: enter main: 376 ms
+2026-08-20 11:14:17.488 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:14:17.690 | zero_code_utils: Reboot count: 2, reset reason: 1
+2026-08-20 11:14:17.690 | light_matter: restore done: 499 ms
+2026-08-20 11:14:23.115 | zero_code_product: enter main: 376 ms
+2026-08-20 11:14:23.115 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:14:23.116 | zero_code_utils: Reboot count: 3, reset reason: 1
+2026-08-20 11:14:23.116 | light_matter: restore done: 500 ms
+2026-08-20 11:14:28.202 | zero_code_product: enter main: 376 ms
+2026-08-20 11:14:28.202 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:14:28.202 | zero_code_utils: Reboot count: 4, reset reason: 1
+2026-08-20 11:14:28.203 | light_matter: restore done: 499 ms
+2026-08-20 11:14:33.481 | zero_code_product: enter main: 376 ms
+2026-08-20 11:14:33.482 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:14:33.686 | zero_code_utils: Reboot count: 5, reset reason: 1
+2026-08-20 11:14:33.686 | light_matter: restore done: 499 ms
+2026-08-20 11:14:38.971 | zero_code_product: enter main: 376 ms
+2026-08-20 11:14:38.971 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:14:38.971 | zero_code_utils: Reboot count: 6, reset reason: 1
+2026-08-20 11:14:38.971 | light_matter: restore done: 499 ms
+2026-08-20 11:14:42.015 | zero_code_core: Current Free Memory: 94424, Minimum Ever Free Size: 66424, Largest Free Block: 60416
+2026-08-20 11:14:42.015 | zero_code_utils: Chip: esp32c2
+2026-08-20 11:14:42.015 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 11:14:42.015 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 11:14:42.016 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 11:14:42.016 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 11:14:42.016 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 11:14:42.016 | zero_code_utils: RainMaker Node ID: e99a1c09-7c0a-4572-90df-8c5d4f6582e1
+2026-08-20 11:14:42.016 | zero_code_utils: Matter Serial Number: e99a1c097c0a457290df8c5d4f6582e1
+2026-08-20 11:14:42.016 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 11:14:44.861 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":0,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1ESP-ROM:esp32c2-eco4-20240515
+2026-08-20 11:14:45.270 | zero_code_product: enter main: 376 ms
+2026-08-20 11:14:45.271 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 11:14:45.271 | zero_code_utils: Reboot count: 7, reset reason: 1
+2026-08-20 11:14:45.271 | light_matter: restore done: 499 ms
+2026-08-20 11:14:48.311 | zero_code_core: Current Free Memory: 87936, Minimum Ever Free Size: 66332, Largest Free Block: 60416
+2026-08-20 11:14:48.312 | zero_code_utils: Chip: esp32c2
+2026-08-20 11:14:48.312 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 11:14:48.312 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 11:14:48.312 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 11:14:48.312 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 11:14:48.312 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 11:14:48.312 | zero_code_utils: RainMaker Node ID: e99a1c09-7c0a-4572-90df-8c5d4f6582e1
+2026-08-20 11:14:48.312 | zero_code_utils: Matter Serial Number: e99a1c097c0a457290df8c5d4f6582e1
+2026-08-20 11:14:48.312 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 11:14:48.789 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":0,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-20 11:14:49.389 | matter_one_core: Current Free Memory: 31912, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:14:49.389 | matter_one_core: Current Free Memory: 31912, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:14:49.389 | matter_one_core: Current Free Memory: 31912, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:14:49.389 | matter_one_core: Current Free Memory: 31828, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:14:49.389 | matter_one_core: Current Free Memory: 31828, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:14:49.594 | After CORE TYPE START: Current Free Memory: 31740, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:14:49.594 | zero_code_product: Current Free Memory: 31740, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:14:50.204 | zero_code_utils: Resetting reboot count
+2026-08-20 11:14:50.204 | zero_code_utils: Current Free Memory: 35296, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:17:27.659 | matter_one_core: Current Free Memory: 35336, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:17:28.479 | matter_one_core: Current Free Memory: 33800, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:17:28.884 | matter_one_core: Current Free Memory: 33796, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:17:28.884 | matter_one_core: Current Free Memory: 33796, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:17:28.884 | matter_one_core: Current Free Memory: 33796, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:17:29.288 | matter_one_core: Current Free Memory: 33796, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:17:29.288 | matter_one_core: Current Free Memory: 33796, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:17:29.897 | matter_one_core: Current Free Memory: 33780, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 11:17:31.731 | matter_one_core: Current Free Memory: 31536, Minimum Ever Free Size: 28928, Largest Free Block: 21504
+2026-08-20 11:17:31.732 | matter_one_core: Current Free Memory: 33072, Minimum Ever Free Size: 28928, Largest Free Block: 23040
+# serial capture stop 2026-08-20 11:18:12.740
+# serial capture start 2026-08-20 12:19:13.010
+# port=/dev/cu.usbserial-14220 baud=74880 filter=factory-reset
+2026-08-20 12:19:19.722 | zero_code_product: enter main: 394 ms
+2026-08-20 12:19:19.722 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 12:19:20.741 | zero_code_product: enter main: 376 ms
+2026-08-20 12:19:20.742 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 12:19:20.742 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 12:19:20.742 | light_matter: restore done: 500 ms
+2026-08-20 12:19:23.797 | zero_code_core: Current Free Memory: 88068, Minimum Ever Free Size: 67428, Largest Free Block: 60416
+2026-08-20 12:19:23.797 | zero_code_utils: Chip: esp32c2
+2026-08-20 12:19:23.797 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 12:19:23.797 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 12:19:23.797 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 12:19:23.798 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 12:19:23.798 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 12:19:23.798 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 12:19:23.798 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 12:19:23.798 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 12:19:28.126 | zero_code_product: enter main: 376 ms
+2026-08-20 12:19:28.127 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 12:19:28.127 | zero_code_utils: Reboot count: 2, reset reason: 1
+2026-08-20 12:19:28.330 | light_matter: restore done: 500 ms
+2026-08-20 12:19:33.617 | zero_code_product: enter main: 376 ms
+2026-08-20 12:19:33.617 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 12:19:33.822 | zero_code_utils: Reboot count: 3, reset reason: 1
+2026-08-20 12:19:33.822 | light_matter: restore done: 500 ms
+2026-08-20 12:19:39.306 | zero_code_product: enter main: 376 ms
+2026-08-20 12:19:39.308 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 12:19:39.511 | zero_code_utils: Reboot count: 4, reset reason: 1
+2026-08-20 12:19:39.511 | light_matter: restore done: 500 ms
+2026-08-20 12:19:44.381 | zero_code_product: enter main: 376 ms
+2026-08-20 12:19:44.382 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 12:19:44.382 | zero_code_utils: Reboot count: 5, reset reason: 1
+2026-08-20 12:19:44.587 | light_matter: restore done: 500 ms
+2026-08-20 12:19:47.431 | zero_code_core: Current Free Memory: 88068, Minimum Ever Free Size: 66768, Largest Free Block: 60416
+2026-08-20 12:19:47.431 | zero_code_utils: Chip: esp32c2
+2026-08-20 12:19:47.432 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 12:19:47.432 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 12:19:47.432 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 12:19:47.432 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 12:19:47.566 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 12:19:47.567 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 12:19:47.567 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 12:19:47.567 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 12:19:51.357 | zero_code_product: enter main: 376 ms
+2026-08-20 12:19:51.358 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 12:19:51.358 | zero_code_utils: Reboot count: 6, reset reason: 1
+2026-08-20 12:19:51.358 | light_matter: restore done: 500 ms
+2026-08-20 12:19:54.402 | zero_code_core: Current Free Memory: 88068, Minimum Ever Free Size: 66960, Largest Free Block: 60416
+2026-08-20 12:19:54.402 | zero_code_utils: Chip: esp32c2
+2026-08-20 12:19:54.402 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 12:19:54.402 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 12:19:54.402 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 12:19:54.402 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 12:19:54.402 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 12:19:54.402 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 12:19:54.402 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 12:19:54.402 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 12:19:55.487 | matter_one_core: Current Free Memory: 32044, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:19:55.487 | matter_one_core: Current Free Memory: 32044, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:19:55.487 | matter_one_core: Current Free Memory: 32044, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:19:55.690 | matter_one_core: Current Free Memory: 31960, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:19:55.691 | matter_one_core: Current Free Memory: 31960, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:19:55.691 | After CORE TYPE START: Current Free Memory: 31872, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:19:55.691 | zero_code_product: Current Free Memory: 31872, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:19:56.296 | zero_code_utils: Resetting reboot count
+2026-08-20 12:19:56.500 | zero_code_utils: Current Free Memory: 35428, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:20:07.072 | matter_one_core: Current Free Memory: 35468, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:20:08.088 | matter_one_core: Current Free Memory: 33932, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:20:08.298 | matter_one_core: Current Free Memory: 33928, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:20:08.298 | matter_one_core: Current Free Memory: 33928, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:20:08.299 | matter_one_core: Current Free Memory: 33928, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:20:08.706 | matter_one_core: Current Free Memory: 33928, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:20:08.706 | matter_one_core: Current Free Memory: 33928, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:20:09.318 | matter_one_core: Current Free Memory: 33912, Minimum Ever Free Size: 30508, Largest Free Block: 23040
+2026-08-20 12:20:11.552 | matter_one_core: Current Free Memory: 31668, Minimum Ever Free Size: 29084, Largest Free Block: 21504
+2026-08-20 12:20:16.428 | matter_one_core: Current Free Memory: 32324, Minimum Ever Free Size: 29084, Largest Free Block: 22016
+2026-08-20 12:20:16.429 | matter_one_core: Current Free Memory: 30788, Minimum Ever Free Size: 29084, Largest Free Block: 20480
+2026-08-20 12:20:16.629 | matter_one_core: Current Free Memory: 30096, Minimum Ever Free Size: 29084, Largest Free Block: 18432
+2026-08-20 12:20:16.832 | matter_one_core: Current Free Memory: 31632, Minimum Ever Free Size: 29084, Largest Free Block: 18432
+2026-08-20 12:20:18.051 | matter_one_core: Current Free Memory: 30572, Minimum Ever Free Size: 28144, Largest Free Block: 20992
+2026-08-20 12:20:18.052 | matter_one_core: Current Free Memory: 30572, Minimum Ever Free Size: 28144, Largest Free Block: 20992
+2026-08-20 12:20:18.052 | matter_one_core: Current Free Memory: 30572, Minimum Ever Free Size: 28144, Largest Free Block: 20992
+2026-08-20 12:20:18.052 | matter_one_core: Current Free Memory: 30572, Minimum Ever Free Size: 28144, Largest Free Block: 20992
+2026-08-20 12:20:19.873 | matter_one_core: Current Free Memory: 31476, Minimum Ever Free Size: 28144, Largest Free Block: 22528
+2026-08-20 12:20:19.874 | matter_one_core: Current Free Memory: 31476, Minimum Ever Free Size: 28144, Largest Free Block: 22528
+2026-08-20 12:20:19.874 | matter_one_core: Current Free Memory: 29380, Minimum Ever Free Size: 26244, Largest Free Block: 16384
+2026-08-20 12:20:19.874 | matter_one_core: Current Free Memory: 30028, Minimum Ever Free Size: 26244, Largest Free Block: 16384
+2026-08-20 12:20:20.481 | matter_one_core: Current Free Memory: 29524, Minimum Ever Free Size: 24928, Largest Free Block: 18432
+2026-08-20 12:20:21.295 | matter_one_core: Current Free Memory: 27608, Minimum Ever Free Size: 21780, Largest Free Block: 16896
+2026-08-20 12:20:21.295 | matter_one_core: Current Free Memory: 30816, Minimum Ever Free Size: 21780, Largest Free Block: 15360
+2026-08-20 12:20:21.295 | matter_one_core: Current Free Memory: 28480, Minimum Ever Free Size: 21780, Largest Free Block: 15360
+2026-08-20 12:20:21.295 | matter_one_core: Current Free Memory: 28480, Minimum Ever Free Size: 21780, Largest Free Block: 15360
+2026-08-20 12:20:21.295 | matter_one_core: Current Free Memory: 49648, Minimum Ever Free Size: 21780, Largest Free Block: 15360
+2026-08-20 12:20:23.358 | matter_one_core: Current Free Memory: 65876, Minimum Ever Free Size: 31784, Largest Free Block: 16896
+2026-08-20 12:20:24.578 | matter_one_core: Current Free Memory: 60304, Minimum Ever Free Size: 24024, Largest Free Block: 16896
+2026-08-20 12:20:24.578 | matter_one_core: Current Free Memory: 60304, Minimum Ever Free Size: 24024, Largest Free Block: 16896
+2026-08-20 12:20:24.578 | matter_one_core: Current Free Memory: 60480, Minimum Ever Free Size: 24024, Largest Free Block: 16896
+2026-08-20 12:20:24.984 | matter_one_core: Current Free Memory: 57228, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:26.610 | matter_one_core: Current Free Memory: 63668, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:28.440 | matter_one_core: Current Free Memory: 64516, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:28.441 | matter_one_core: Current Free Memory: 64516, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:47.731 | matter_one_core: Current Free Memory: 64504, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:47.731 | matter_one_core: Current Free Memory: 64768, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:47.731 | matter_one_core: Current Free Memory: 64768, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:51.393 | matter_one_core: Current Free Memory: 64724, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:51.393 | matter_one_core: Current Free Memory: 64724, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:51.393 | matter_one_core: Current Free Memory: 63232, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:53.831 | matter_one_core: Current Free Memory: 64504, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:53.831 | matter_one_core: Current Free Memory: 64504, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:53.831 | matter_one_core: Current Free Memory: 64768, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:56.269 | matter_one_core: Current Free Memory: 64712, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:56.270 | matter_one_core: Current Free Memory: 64712, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:56.270 | matter_one_core: Current Free Memory: 62956, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:57.483 | matter_one_core: Current Free Memory: 64264, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:57.484 | matter_one_core: Current Free Memory: 64264, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+2026-08-20 12:20:57.484 | matter_one_core: Current Free Memory: 64756, Minimum Ever Free Size: 21784, Largest Free Block: 22528
+# serial capture start 2026-08-20 15:10:07.163
+# port=/dev/cu.usbserial-14220 baud=74880 filter=factory-reset
+2026-08-20 15:10:16.340 | zero_code_product: enter main: 376 ms
+2026-08-20 15:10:16.342 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:10:16.543 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 15:10:16.543 | light_matter: restore done: 532 ms
+2026-08-20 15:10:16.543 | zero_code_core: Current Free Memory: 94644, Minimum Ever Free Size: 94644, Largest Free Block: 83968
+2026-08-20 15:10:16.543 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:10:16.543 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:10:16.543 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:10:16.543 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:10:16.543 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:10:16.543 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:10:16.543 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:10:16.543 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:10:16.543 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:10:17.831 | matter_one_core: Current Free Memory: 30800, Minimum Ever Free Size: 29264, Largest Free Block: 22016
+2026-08-20 15:10:18.652 | matter_one_core: Current Free Memory: 29184, Minimum Ever Free Size: 29112, Largest Free Block: 19968
+2026-08-20 15:10:18.652 | matter_one_core: Current Free Memory: 29360, Minimum Ever Free Size: 29040, Largest Free Block: 19968
+2026-08-20 15:10:18.652 | matter_one_core: Current Free Memory: 33920, Minimum Ever Free Size: 29040, Largest Free Block: 19968
+2026-08-20 15:10:18.652 | After CORE TYPE START: Current Free Memory: 50692, Minimum Ever Free Size: 29040, Largest Free Block: 19968
+2026-08-20 15:10:18.652 | zero_code_product: Current Free Memory: 50692, Minimum Ever Free Size: 29040, Largest Free Block: 19968
+2026-08-20 15:10:19.063 | matter_one_core: Current Free Memory: 59360, Minimum Ever Free Size: 29040, Largest Free Block: 22016
+2026-08-20 15:10:19.063 | matter_one_core: Current Free Memory: 59360, Minimum Ever Free Size: 29040, Largest Free Block: 22016
+2026-08-20 15:10:20.083 | matter_one_core: Current Free Memory: 58960, Minimum Ever Free Size: 29040, Largest Free Block: 22016
+2026-08-20 15:10:20.083 | matter_one_core: Current Free Memory: 59144, Minimum Ever Free Size: 29040, Largest Free Block: 22016
+2026-08-20 15:10:20.084 | matter_one_core: Current Free Memory: 55616, Minimum Ever Free Size: 29040, Largest Free Block: 22016
+2026-08-20 15:10:20.084 | matter_one_core: Current Free Memory: 56500, Minimum Ever Free Size: 29040, Largest Free Block: 22016
+2026-08-20 15:10:20.697 | matter_one_core: Current Free Memory: 66380, Minimum Ever Free Size: 39044, Largest Free Block: 22016
+2026-08-20 15:10:21.515 | zero_code_utils: Resetting reboot count
+2026-08-20 15:10:21.515 | zero_code_utils: Current Free Memory: 66320, Minimum Ever Free Size: 35604, Largest Free Block: 22016
+2026-08-20 15:10:21.920 | matter_one_core: Current Free Memory: 61768, Minimum Ever Free Size: 34260, Largest Free Block: 22016
+2026-08-20 15:10:21.921 | matter_one_core: Current Free Memory: 61768, Minimum Ever Free Size: 34260, Largest Free Block: 22016
+2026-08-20 15:10:21.921 | matter_one_core: Current Free Memory: 61944, Minimum Ever Free Size: 34260, Largest Free Block: 22016
+2026-08-20 15:11:05.759 | zero_code_product: enter main: 376 ms
+2026-08-20 15:11:05.761 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:11:05.761 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 15:11:05.762 | light_matter: restore done: 528 ms
+2026-08-20 15:11:05.892 | zero_code_core: Current Free Memory: 94644, Minimum Ever Free Size: 94644, Largest Free Block: 83968
+2026-08-20 15:11:05.892 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:11:05.892 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:11:05.892 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:11:05.892 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:11:05.892 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:11:05.892 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:11:05.893 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:11:05.893 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:11:05.893 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:11:07.184 | matter_one_core: Current Free Memory: 30896, Minimum Ever Free Size: 29360, Largest Free Block: 22016
+2026-08-20 15:11:07.796 | matter_one_core: Current Free Memory: 29264, Minimum Ever Free Size: 29192, Largest Free Block: 19968
+2026-08-20 15:11:07.796 | matter_one_core: Current Free Memory: 29432, Minimum Ever Free Size: 29192, Largest Free Block: 20480
+2026-08-20 15:11:08.001 | matter_one_core: Current Free Memory: 33992, Minimum Ever Free Size: 29192, Largest Free Block: 20480
+2026-08-20 15:11:08.001 | After CORE TYPE START: Current Free Memory: 50764, Minimum Ever Free Size: 29192, Largest Free Block: 20480
+2026-08-20 15:11:08.001 | zero_code_product: Current Free Memory: 50764, Minimum Ever Free Size: 29192, Largest Free Block: 20480
+2026-08-20 15:11:10.452 | zero_code_product: enter main: 376 ms
+2026-08-20 15:11:10.452 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:11:10.452 | zero_code_utils: Reboot count: 2, reset reason: 1
+2026-08-20 15:11:10.452 | light_matter: restore done: 528 ms
+2026-08-20 15:11:10.452 | zero_code_core: Current Free Memory: 94644, Minimum Ever Free Size: 94644, Largest Free Block: 83968
+2026-08-20 15:11:10.452 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:11:10.452 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:11:10.452 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:11:10.452 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:11:10.587 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:11:10.587 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:11:10.587 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:11:10.587 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:11:10.587 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:11:11.878 | matter_one_core: Current Free Memory: 30896, Minimum Ever Free Size: 29360, Largest Free Block: 22016
+2026-08-20 15:11:12.489 | matter_one_core: Current Free Memory: 29248, Minimum Ever Free Size: 29176, Largest Free Block: 19968
+2026-08-20 15:11:12.490 | matter_one_core: Current Free Memory: 29192, Minimum Ever Free Size: 29104, Largest Free Block: 19968
+2026-08-20 15:11:12.490 | matter_one_core: Current Free Memory: 50836, Minimum Ever Free Size: 29104, Largest Free Block: 19968
+2026-08-20 15:11:12.694 | After CORE TYPE START: Current Free Memory: 50748, Minimum Ever Free Size: 29104, Largest Free Block: 19968
+2026-08-20 15:11:12.694 | zero_code_product: Current Free Memory: 50748, Minimum Ever Free Size: 29104, Largest Free Block: 19968
+2026-08-20 15:11:12.900 | matter_one_core: Current Free Memory: 59500, Minimum Ever Free Size: 29104, Largest Free Block: 22016
+2026-08-20 15:11:12.900 | matter_one_core: Current Free Memory: 59500, Minimum Ever Free Size: 29104, Largest Free Block: 22016
+2026-08-20 15:11:15.347 | zero_code_product: enter main: 376 ms
+2026-08-20 15:11:15.348 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:11:15.549 | zero_code_utils: Reboot count: 3, reset reason: 1
+2026-08-20 15:11:15.549 | light_matter: restore done: 529 ms
+2026-08-20 15:11:15.549 | zero_code_core: Current Free Memory: 94600, Minimum Ever Free Size: 94600, Largest Free Block: 83968
+2026-08-20 15:11:15.549 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:11:15.549 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:11:15.549 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:11:15.549 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:11:15.549 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:11:15.549 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:11:15.549 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:11:15.549 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:11:15.550 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:11:16.839 | matter_one_core: Current Free Memory: 30860, Minimum Ever Free Size: 29020, Largest Free Block: 22016
+2026-08-20 15:11:17.651 | matter_one_core: Current Free Memory: 29252, Minimum Ever Free Size: 29020, Largest Free Block: 19968
+2026-08-20 15:11:17.651 | matter_one_core: Current Free Memory: 29408, Minimum Ever Free Size: 29020, Largest Free Block: 19968
+2026-08-20 15:11:17.651 | matter_one_core: Current Free Memory: 33968, Minimum Ever Free Size: 29020, Largest Free Block: 19968
+2026-08-20 15:11:17.652 | After CORE TYPE START: Current Free Memory: 50740, Minimum Ever Free Size: 29020, Largest Free Block: 19968
+2026-08-20 15:11:17.652 | zero_code_product: Current Free Memory: 50740, Minimum Ever Free Size: 29020, Largest Free Block: 19968
+2026-08-20 15:11:20.299 | zero_code_product: enter main: 376 ms
+2026-08-20 15:11:20.299 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:11:20.299 | zero_code_utils: Reboot count: 4, reset reason: 1
+2026-08-20 15:11:20.299 | light_matter: restore done: 529 ms
+2026-08-20 15:11:20.300 | zero_code_core: Current Free Memory: 94644, Minimum Ever Free Size: 94644, Largest Free Block: 83968
+2026-08-20 15:11:20.300 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:11:20.300 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:11:20.300 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:11:20.300 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:11:20.436 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:11:20.436 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:11:20.436 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:11:20.437 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:11:20.437 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:11:21.732 | matter_one_core: Current Free Memory: 31292, Minimum Ever Free Size: 29348, Largest Free Block: 22016
+2026-08-20 15:11:24.379 | zero_code_product: enter main: 376 ms
+2026-08-20 15:11:24.580 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:11:24.580 | zero_code_utils: Reboot count: 5, reset reason: 1
+2026-08-20 15:11:24.581 | light_matter: restore done: 529 ms
+2026-08-20 15:11:24.581 | zero_code_core: Current Free Memory: 94644, Minimum Ever Free Size: 94644, Largest Free Block: 83968
+2026-08-20 15:11:24.581 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:11:24.581 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:11:24.581 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:11:24.581 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:11:24.581 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:11:24.581 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:11:24.581 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:11:24.713 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:11:24.713 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:11:25.999 | matter_one_core: Current Free Memory: 30780, Minimum Ever Free Size: 29244, Largest Free Block: 22016
+2026-08-20 15:11:29.663 | zero_code_product: enter main: 376 ms
+2026-08-20 15:11:29.664 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:11:29.864 | zero_code_utils: Reboot count: 6, reset reason: 1
+2026-08-20 15:11:29.864 | light_matter: restore done: 527 ms
+2026-08-20 15:11:29.864 | zero_code_core: Current Free Memory: 94512, Minimum Ever Free Size: 94512, Largest Free Block: 83968
+2026-08-20 15:11:29.864 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:11:29.864 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:11:29.864 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:11:29.864 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:11:29.864 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:11:29.865 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:11:29.865 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:11:29.865 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:11:29.865 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:11:31.967 | matter_one_core: Current Free Memory: 31760, Minimum Ever Free Size: 27764, Largest Free Block: 18944
+2026-08-20 15:11:31.968 | matter_one_core: Current Free Memory: 31760, Minimum Ever Free Size: 27764, Largest Free Block: 18944
+2026-08-20 15:11:31.968 | matter_one_core: Current Free Memory: 31784, Minimum Ever Free Size: 27764, Largest Free Block: 18944
+2026-08-20 15:11:31.968 | matter_one_core: Current Free Memory: 53204, Minimum Ever Free Size: 27764, Largest Free Block: 18944
+2026-08-20 15:11:31.968 | After CORE TYPE START: Current Free Memory: 53116, Minimum Ever Free Size: 27764, Largest Free Block: 18944
+2026-08-20 15:11:31.968 | zero_code_product: Current Free Memory: 53116, Minimum Ever Free Size: 27764, Largest Free Block: 18944
+2026-08-20 15:11:32.982 | matter_one_core: Current Free Memory: 60128, Minimum Ever Free Size: 27764, Largest Free Block: 18944
+2026-08-20 15:11:34.005 | matter_one_core: Current Free Memory: 70012, Minimum Ever Free Size: 37768, Largest Free Block: 18944
+2026-08-20 15:11:34.819 | zero_code_utils: Resetting reboot count
+2026-08-20 15:11:34.819 | zero_code_utils: Current Free Memory: 70016, Minimum Ever Free Size: 37580, Largest Free Block: 18944
+2026-08-20 15:11:35.435 | matter_one_core: Current Free Memory: 70300, Minimum Ever Free Size: 37524, Largest Free Block: 18944
+2026-08-20 15:11:36.866 | matter_one_core: Current Free Memory: 69388, Minimum Ever Free Size: 32728, Largest Free Block: 18944
+2026-08-20 15:11:36.866 | matter_one_core: Current Free Memory: 69388, Minimum Ever Free Size: 32728, Largest Free Block: 18944
+2026-08-20 15:11:38.298 | matter_one_core: Current Free Memory: 68984, Minimum Ever Free Size: 32728, Largest Free Block: 18944
+2026-08-20 15:11:38.298 | matter_one_core: Current Free Memory: 68948, Minimum Ever Free Size: 32728, Largest Free Block: 18944
+2026-08-20 15:11:38.500 | matter_one_core: Current Free Memory: 61244, Minimum Ever Free Size: 27860, Largest Free Block: 18944
+2026-08-20 15:11:38.500 | matter_one_core: Current Free Memory: 64784, Minimum Ever Free Size: 27860, Largest Free Block: 18944
+2026-08-20 15:11:43.179 | matter_one_core: Current Free Memory: 61760, Minimum Ever Free Size: 27860, Largest Free Block: 18944
+2026-08-20 15:11:43.179 | matter_one_core: Current Free Memory: 61760, Minimum Ever Free Size: 27860, Largest Free Block: 18944
+2026-08-20 15:11:43.179 | matter_one_core: Current Free Memory: 61936, Minimum Ever Free Size: 27860, Largest Free Block: 18944
+2026-08-20 15:11:46.376 | zero_code_product: enter main: 376 ms
+2026-08-20 15:11:46.376 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:11:46.376 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 15:11:46.376 | light_matter: restore done: 528 ms
+2026-08-20 15:11:46.376 | zero_code_core: Current Free Memory: 94512, Minimum Ever Free Size: 94512, Largest Free Block: 83968
+2026-08-20 15:11:46.377 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:11:46.377 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:11:46.377 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:11:46.377 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:11:46.377 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:11:46.512 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:11:46.512 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:11:46.512 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:11:46.512 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:11:47.807 | matter_one_core: Current Free Memory: 30772, Minimum Ever Free Size: 29236, Largest Free Block: 22016
+2026-08-20 15:11:48.417 | matter_one_core: Current Free Memory: 29132, Minimum Ever Free Size: 29060, Largest Free Block: 19968
+2026-08-20 15:11:48.417 | matter_one_core: Current Free Memory: 29084, Minimum Ever Free Size: 28992, Largest Free Block: 19968
+2026-08-20 15:11:48.417 | matter_one_core: Current Free Memory: 33868, Minimum Ever Free Size: 28992, Largest Free Block: 19968
+2026-08-20 15:11:48.417 | After CORE TYPE START: Current Free Memory: 50640, Minimum Ever Free Size: 28992, Largest Free Block: 19968
+2026-08-20 15:11:48.621 | zero_code_product: Current Free Memory: 50640, Minimum Ever Free Size: 28992, Largest Free Block: 19968
+2026-08-20 15:11:49.843 | matter_one_core: Current Free Memory: 60124, Minimum Ever Free Size: 28992, Largest Free Block: 22016
+2026-08-20 15:11:50.452 | matter_one_core: Current Free Memory: 70012, Minimum Ever Free Size: 38996, Largest Free Block: 22016
+2026-08-20 15:11:51.471 | zero_code_utils: Resetting reboot count
+2026-08-20 15:11:51.472 | zero_code_utils: Current Free Memory: 70012, Minimum Ever Free Size: 38748, Largest Free Block: 22016
+2026-08-20 15:11:53.762 | zero_code_product: enter main: 376 ms
+2026-08-20 15:11:53.762 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:11:53.762 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 15:11:53.910 | light_matter: restore done: 528 ms
+2026-08-20 15:11:53.910 | zero_code_core: Current Free Memory: 94512, Minimum Ever Free Size: 94512, Largest Free Block: 83968
+2026-08-20 15:11:53.910 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:11:53.910 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:11:53.910 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:11:53.910 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:11:53.910 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:11:53.910 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:11:53.910 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:11:53.910 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:11:53.910 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:11:55.202 | matter_one_core: Current Free Memory: 30816, Minimum Ever Free Size: 28860, Largest Free Block: 19968
+2026-08-20 15:11:56.014 | matter_one_core: Current Free Memory: 29148, Minimum Ever Free Size: 28860, Largest Free Block: 19968
+2026-08-20 15:11:56.015 | matter_one_core: Current Free Memory: 29100, Minimum Ever Free Size: 28860, Largest Free Block: 19968
+2026-08-20 15:11:56.015 | matter_one_core: Current Free Memory: 33660, Minimum Ever Free Size: 28860, Largest Free Block: 19968
+2026-08-20 15:11:56.015 | After CORE TYPE START: Current Free Memory: 50656, Minimum Ever Free Size: 28860, Largest Free Block: 19968
+2026-08-20 15:11:56.016 | zero_code_product: Current Free Memory: 50656, Minimum Ever Free Size: 28860, Largest Free Block: 19968
+2026-08-20 15:11:56.217 | matter_one_core: Current Free Memory: 59364, Minimum Ever Free Size: 28860, Largest Free Block: 22016
+2026-08-20 15:11:56.422 | matter_one_core: Current Free Memory: 59364, Minimum Ever Free Size: 28860, Largest Free Block: 22016
+2026-08-20 15:11:57.442 | matter_one_core: Current Free Memory: 58920, Minimum Ever Free Size: 28860, Largest Free Block: 22016
+2026-08-20 15:11:57.442 | matter_one_core: Current Free Memory: 58920, Minimum Ever Free Size: 28860, Largest Free Block: 22016
+2026-08-20 15:11:57.443 | matter_one_core: Current Free Memory: 55640, Minimum Ever Free Size: 28860, Largest Free Block: 22016
+2026-08-20 15:11:57.443 | matter_one_core: Current Free Memory: 56524, Minimum Ever Free Size: 28860, Largest Free Block: 22016
+2026-08-20 15:11:57.850 | matter_one_core: Current Free Memory: 66428, Minimum Ever Free Size: 38864, Largest Free Block: 22016
+2026-08-20 15:11:58.870 | zero_code_utils: Resetting reboot count
+2026-08-20 15:11:58.871 | zero_code_utils: Current Free Memory: 66436, Minimum Ever Free Size: 35424, Largest Free Block: 22016
+2026-08-20 15:12:00.296 | matter_one_core: Current Free Memory: 61776, Minimum Ever Free Size: 34080, Largest Free Block: 22016
+2026-08-20 15:12:00.296 | matter_one_core: Current Free Memory: 61776, Minimum Ever Free Size: 34080, Largest Free Block: 22016
+2026-08-20 15:12:00.296 | matter_one_core: Current Free Memory: 61952, Minimum Ever Free Size: 34080, Largest Free Block: 22016
+# serial capture stop 2026-08-20 15:12:03.629
+# serial capture start 2026-08-20 15:16:21.191
+# port=/dev/cu.usbserial-14220 baud=74880 filter=factory-reset
+2026-08-20 15:16:25.515 | zero_code_product: enter main: 376 ms
+2026-08-20 15:16:25.516 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:16:25.516 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 15:16:25.516 | light_matter: restore done: 527 ms
+2026-08-20 15:16:25.516 | zero_code_core: Current Free Memory: 94512, Minimum Ever Free Size: 94512, Largest Free Block: 83968
+2026-08-20 15:16:25.516 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:16:25.516 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:16:25.648 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:16:25.648 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:16:25.648 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:16:25.648 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:16:25.649 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:16:25.649 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:16:25.649 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:16:26.860 | matter_one_core: Current Free Memory: 32184, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:26.864 | matter_one_core: Current Free Memory: 32184, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:26.864 | matter_one_core: Current Free Memory: 32100, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:26.864 | matter_one_core: Current Free Memory: 53520, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:26.865 | After CORE TYPE START: Current Free Memory: 53432, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:26.865 | zero_code_product: Current Free Memory: 53432, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:29.933 | zero_code_product: enter main: 376 ms
+2026-08-20 15:16:29.937 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:16:29.937 | zero_code_utils: Reboot count: 2, reset reason: 1
+2026-08-20 15:16:29.937 | light_matter: restore done: 528 ms
+2026-08-20 15:16:29.937 | zero_code_core: Current Free Memory: 94512, Minimum Ever Free Size: 94512, Largest Free Block: 83968
+2026-08-20 15:16:29.937 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:16:29.938 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:16:30.065 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:16:30.066 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:16:30.066 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:16:30.066 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:16:30.066 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:16:30.066 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:16:30.066 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:16:31.362 | matter_one_core: Current Free Memory: 30744, Minimum Ever Free Size: 29208, Largest Free Block: 22016
+2026-08-20 15:16:31.974 | matter_one_core: Current Free Memory: 29120, Minimum Ever Free Size: 29044, Largest Free Block: 19968
+2026-08-20 15:16:31.974 | matter_one_core: Current Free Memory: 29284, Minimum Ever Free Size: 29044, Largest Free Block: 19968
+2026-08-20 15:16:32.175 | matter_one_core: Current Free Memory: 33844, Minimum Ever Free Size: 29044, Largest Free Block: 19968
+2026-08-20 15:16:32.177 | After CORE TYPE START: Current Free Memory: 50616, Minimum Ever Free Size: 29044, Largest Free Block: 19968
+2026-08-20 15:16:32.177 | zero_code_product: Current Free Memory: 50616, Minimum Ever Free Size: 29044, Largest Free Block: 19968
+2026-08-20 15:16:34.624 | zero_code_product: enter main: 376 ms
+2026-08-20 15:16:34.625 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:16:34.825 | zero_code_utils: Reboot count: 3, reset reason: 1
+2026-08-20 15:16:34.825 | light_matter: restore done: 529 ms
+2026-08-20 15:16:34.825 | zero_code_core: Current Free Memory: 94468, Minimum Ever Free Size: 94468, Largest Free Block: 83968
+2026-08-20 15:16:34.825 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:16:34.826 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:16:34.826 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:16:34.826 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:16:34.826 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:16:34.826 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:16:34.826 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:16:34.826 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:16:34.958 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:16:36.107 | matter_one_core: Current Free Memory: 30720, Minimum Ever Free Size: 29184, Largest Free Block: 22016
+2026-08-20 15:16:36.924 | matter_one_core: Current Free Memory: 29088, Minimum Ever Free Size: 29016, Largest Free Block: 19968
+2026-08-20 15:16:36.924 | matter_one_core: Current Free Memory: 29268, Minimum Ever Free Size: 28948, Largest Free Block: 19968
+2026-08-20 15:16:36.924 | matter_one_core: Current Free Memory: 33828, Minimum Ever Free Size: 28948, Largest Free Block: 19968
+2026-08-20 15:16:36.924 | After CORE TYPE START: Current Free Memory: 50600, Minimum Ever Free Size: 28948, Largest Free Block: 19968
+2026-08-20 15:16:36.924 | zero_code_product: Current Free Memory: 50600, Minimum Ever Free Size: 28948, Largest Free Block: 19968
+2026-08-20 15:16:39.365 | zero_code_product: enter main: 376 ms
+2026-08-20 15:16:39.365 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:16:39.365 | zero_code_utils: Reboot count: 4, reset reason: 1
+2026-08-20 15:16:39.506 | light_matter: restore done: 528 ms
+2026-08-20 15:16:39.506 | zero_code_core: Current Free Memory: 94512, Minimum Ever Free Size: 94512, Largest Free Block: 83968
+2026-08-20 15:16:39.506 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:16:39.506 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:16:39.506 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:16:39.506 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:16:39.506 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:16:39.506 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:16:39.506 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:16:39.506 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:16:39.506 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:16:40.796 | matter_one_core: Current Free Memory: 32184, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:40.797 | matter_one_core: Current Free Memory: 32184, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:40.797 | matter_one_core: Current Free Memory: 32100, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:40.797 | matter_one_core: Current Free Memory: 53520, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:40.797 | After CORE TYPE START: Current Free Memory: 53432, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:40.797 | zero_code_product: Current Free Memory: 53432, Minimum Ever Free Size: 30648, Largest Free Block: 23040
+2026-08-20 15:16:44.464 | zero_code_product: enter main: 376 ms
+2026-08-20 15:16:44.468 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:16:44.468 | zero_code_utils: Reboot count: 5, reset reason: 1
+2026-08-20 15:16:44.468 | light_matter: restore done: 528 ms
+2026-08-20 15:16:44.599 | zero_code_core: Current Free Memory: 94512, Minimum Ever Free Size: 94512, Largest Free Block: 83968
+2026-08-20 15:16:44.599 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:16:44.599 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:16:44.599 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:16:44.599 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:16:44.600 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:16:44.600 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:16:44.600 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:16:44.600 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:16:44.600 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:16:45.802 | matter_one_core: Current Free Memory: 30788, Minimum Ever Free Size: 28868, Largest Free Block: 20480
+2026-08-20 15:16:46.623 | matter_one_core: Current Free Memory: 29168, Minimum Ever Free Size: 28868, Largest Free Block: 19968
+2026-08-20 15:16:46.624 | matter_one_core: Current Free Memory: 29332, Minimum Ever Free Size: 28868, Largest Free Block: 19968
+2026-08-20 15:16:46.624 | matter_one_core: Current Free Memory: 27288, Minimum Ever Free Size: 27084, Largest Free Block: 17920
+2026-08-20 15:16:46.624 | After CORE TYPE START: Current Free Memory: 48672, Minimum Ever Free Size: 27084, Largest Free Block: 18432
+2026-08-20 15:16:46.624 | zero_code_product: Current Free Memory: 48672, Minimum Ever Free Size: 27084, Largest Free Block: 18432
+2026-08-20 15:16:49.472 | zero_code_product: enter main: 376 ms
+2026-08-20 15:16:49.473 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:16:49.473 | zero_code_utils: Reboot count: 6, reset reason: 1
+2026-08-20 15:16:49.632 | light_matter: restore done: 528 ms
+2026-08-20 15:16:49.632 | zero_code_core: Current Free Memory: 94512, Minimum Ever Free Size: 94512, Largest Free Block: 83968
+2026-08-20 15:16:49.632 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:16:49.632 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:16:49.632 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:16:49.632 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:16:49.633 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:16:49.633 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:16:49.633 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:16:49.633 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:16:49.633 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:16:50.928 | matter_one_core: Current Free Memory: 30624, Minimum Ever Free Size: 29088, Largest Free Block: 21504
+2026-08-20 15:16:53.846 | zero_code_product: enter main: 376 ms
+2026-08-20 15:16:53.846 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:16:53.846 | zero_code_utils: Reboot count: 7, reset reason: 1
+2026-08-20 15:16:53.846 | light_matter: restore done: 526 ms
+2026-08-20 15:16:53.846 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:16:53.846 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:16:53.846 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:16:53.846 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:16:53.846 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:16:53.981 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:16:53.981 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:16:53.981 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:16:53.982 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:16:53.982 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:16:55.275 | matter_one_core: Current Free Memory: 30924, Minimum Ever Free Size: 29388, Largest Free Block: 22016
+2026-08-20 15:16:55.886 | matter_one_core: Current Free Memory: 29072, Minimum Ever Free Size: 28988, Largest Free Block: 19968
+2026-08-20 15:16:55.886 | matter_one_core: Current Free Memory: 29216, Minimum Ever Free Size: 28888, Largest Free Block: 19968
+2026-08-20 15:16:55.886 | matter_one_core: Current Free Memory: 33740, Minimum Ever Free Size: 28888, Largest Free Block: 19968
+2026-08-20 15:16:56.091 | After CORE TYPE START: Current Free Memory: 50548, Minimum Ever Free Size: 28888, Largest Free Block: 19968
+2026-08-20 15:16:56.091 | zero_code_product: Current Free Memory: 50548, Minimum Ever Free Size: 28888, Largest Free Block: 19968
+2026-08-20 15:16:59.356 | zero_code_product: enter main: 376 ms
+2026-08-20 15:16:59.356 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:16:59.556 | zero_code_utils: Reboot count: 8, reset reason: 1
+2026-08-20 15:16:59.556 | light_matter: restore done: 526 ms
+2026-08-20 15:16:59.556 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:16:59.556 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:16:59.556 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:16:59.557 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:16:59.557 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:16:59.557 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:16:59.557 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:16:59.557 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:16:59.557 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:16:59.557 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:17:00.844 | matter_one_core: Current Free Memory: 30600, Minimum Ever Free Size: 29064, Largest Free Block: 21504
+2026-08-20 15:17:01.663 | matter_one_core: Current Free Memory: 28988, Minimum Ever Free Size: 28916, Largest Free Block: 19968
+2026-08-20 15:17:01.663 | matter_one_core: Current Free Memory: 29160, Minimum Ever Free Size: 28916, Largest Free Block: 19968
+2026-08-20 15:17:01.663 | matter_one_core: Current Free Memory: 33720, Minimum Ever Free Size: 28916, Largest Free Block: 19968
+2026-08-20 15:17:03.908 | After CORE TYPE START: Current Free Memory: 50492, Minimum Ever Fre�ESP-ROM:esp32c2-eco4-20240515
+2026-08-20 15:17:04.319 | zero_code_product: enter main: 376 ms
+2026-08-20 15:17:04.319 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:17:04.319 | zero_code_utils: Reboot count: 9, reset reason: 1
+2026-08-20 15:17:04.483 | light_matter: restore done: 526 ms
+2026-08-20 15:17:04.483 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:17:04.483 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:17:04.483 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:17:04.484 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:17:04.484 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:17:04.484 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:17:04.484 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:17:04.484 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:17:04.484 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:17:04.484 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:17:05.779 | matter_one_core: Current Free Memory: 30660, Minimum Ever Free Size: 29124, Largest Free Block: 21504
+2026-08-20 15:17:06.593 | matter_one_core: Current Free Memory: 29020, Minimum Ever Free Size: 28944, Largest Free Block: 19456
+2026-08-20 15:17:06.593 | matter_one_core: Current Free Memory: 29184, Minimum Ever Free Size: 28944, Largest Free Block: 19968
+2026-08-20 15:17:06.593 | matter_one_core: Current Free Memory: 27452, Minimum Ever Free Size: 26896, Largest Free Block: 17920
+2026-08-20 15:17:06.593 | After CORE TYPE START: Current Free Memory: 31568, Minimum Ever Free Size: 26896, Largest Free Block: 17920
+2026-08-20 15:17:06.594 | zero_code_product: Current Free Memory: 48536, Minimum Ever Free Size: 26896, Largest Free Block: 17920
+2026-08-20 15:17:06.594 | matter_one_core: Current Free Memory: 59264, Minimum Ever Free Size: 26896, Largest Free Block: 21504
+2026-08-20 15:17:06.798 | matter_one_core: Current Free Memory: 59264, Minimum Ever Free Size: 26896, Largest Free Block: 21504
+2026-08-20 15:17:08.021 | matter_one_core: Current Free Memory: 58868, Minimum Ever Free Size: 26896, Largest Free Block: 21504
+2026-08-20 15:17:08.021 | matter_one_core: Current Free Memory: 58820, Minimum Ever Free Size: 26896, Largest Free Block: 21504
+2026-08-20 15:17:08.022 | matter_one_core: Current Free Memory: 55532, Minimum Ever Free Size: 26896, Largest Free Block: 21504
+2026-08-20 15:17:08.022 | matter_one_core: Current Free Memory: 56416, Minimum Ever Free Size: 26896, Largest Free Block: 21504
+2026-08-20 15:17:08.636 | matter_one_core: Current Free Memory: 66284, Minimum Ever Free Size: 36900, Largest Free Block: 21504
+2026-08-20 15:17:09.453 | zero_code_utils: Resetting reboot count
+2026-08-20 15:17:09.453 | zero_code_utils: Current Free Memory: 66224, Minimum Ever Free Size: 33424, Largest Free Block: 21504
+2026-08-20 15:17:09.653 | matter_one_core: Current Free Memory: 61672, Minimum Ever Free Size: 32116, Largest Free Block: 21504
+2026-08-20 15:17:09.653 | matter_one_core: Current Free Memory: 61672, Minimum Ever Free Size: 32116, Largest Free Block: 21504
+2026-08-20 15:17:09.653 | matter_one_core: Current Free Memory: 61848, Minimum Ever Free Size: 32116, Largest Free Block: 21504
+2026-08-20 15:23:32.461 | zero_code_product: enter main: 376 ms
+2026-08-20 15:23:32.461 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:23:32.660 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 15:23:32.660 | light_matter: restore done: 527 ms
+2026-08-20 15:23:32.660 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:23:32.660 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:23:32.660 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:23:32.660 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:23:32.660 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:23:32.661 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:23:32.661 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:23:32.661 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:23:32.661 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:23:32.661 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:23:33.951 | matter_one_core: Current Free Memory: 32048, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:23:33.952 | matter_one_core: Current Free Memory: 32048, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:23:33.952 | matter_one_core: Current Free Memory: 31964, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:23:33.952 | matter_one_core: Current Free Memory: 53384, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:23:33.952 | After CORE TYPE START: Current Free Memory: 53296, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:23:33.952 | zero_code_product: Current Free Memory: 53296, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:23:38.430 | zero_code_product: enter main: 376 ms
+2026-08-20 15:23:38.430 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:23:38.631 | zero_code_utils: Reboot count: 2, reset reason: 1
+2026-08-20 15:23:38.631 | light_matter: restore done: 527 ms
+2026-08-20 15:23:38.631 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:23:38.631 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:23:38.631 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:23:38.631 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:23:38.631 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:23:38.631 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:23:38.631 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:23:38.631 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:23:38.632 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:23:38.632 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:23:39.921 | matter_one_core: Current Free Memory: 30944, Minimum Ever Free Size: 29408, Largest Free Block: 22016
+2026-08-20 15:23:40.737 | matter_one_core: Current Free Memory: 29080, Minimum Ever Free Size: 29000, Largest Free Block: 19968
+2026-08-20 15:23:40.737 | matter_one_core: Current Free Memory: 28996, Minimum Ever Free Size: 28900, Largest Free Block: 19968
+2026-08-20 15:23:40.737 | matter_one_core: Current Free Memory: 33744, Minimum Ever Free Size: 28900, Largest Free Block: 19968
+2026-08-20 15:23:40.737 | After CORE TYPE START: Current Free Memory: 50552, Minimum Ever Free Size: 28900, Largest Free Block: 19968
+2026-08-20 15:23:40.737 | zero_code_product: Current Free Memory: 50552, Minimum Ever Free Size: 28900, Largest Free Block: 19968
+2026-08-20 15:23:45.431 | zero_code_product: enter main: 376 ms
+2026-08-20 15:23:45.431 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:23:45.431 | zero_code_utils: Reboot count: 3, reset reason: 1
+2026-08-20 15:23:45.598 | light_matter: restore done: 528 ms
+2026-08-20 15:23:45.599 | zero_code_core: Current Free Memory: 94336, Minimum Ever Free Size: 94336, Largest Free Block: 83968
+2026-08-20 15:23:45.599 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:23:45.599 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:23:45.599 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:23:45.599 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:23:45.599 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:23:45.599 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:23:45.599 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:23:45.599 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:23:45.599 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:23:46.893 | matter_one_core: Current Free Memory: 30900, Minimum Ever Free Size: 29364, Largest Free Block: 22016
+2026-08-20 15:23:47.704 | matter_one_core: Current Free Memory: 29032, Minimum Ever Free Size: 28960, Largest Free Block: 19968
+2026-08-20 15:23:47.704 | matter_one_core: Current Free Memory: 29172, Minimum Ever Free Size: 28848, Largest Free Block: 19968
+2026-08-20 15:23:47.704 | matter_one_core: Current Free Memory: 33696, Minimum Ever Free Size: 28848, Largest Free Block: 19968
+2026-08-20 15:23:47.704 | After CORE TYPE START: Current Free Memory: 50504, Minimum Ever Free Size: 28848, Largest Free Block: 19968
+2026-08-20 15:23:47.704 | zero_code_product: Current Free Memory: 50504, Minimum Ever Free Size: 28848, Largest Free Block: 19968
+2026-08-20 15:23:52.187 | zero_code_product: enter main: 376 ms
+2026-08-20 15:23:52.187 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:23:52.187 | zero_code_utils: Reboot count: 4, reset reason: 1
+2026-08-20 15:23:52.339 | light_matter: restore done: 527 ms
+2026-08-20 15:23:52.340 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:23:52.340 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:23:52.340 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:23:52.340 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:23:52.340 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:23:52.341 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:23:52.341 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:23:52.341 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:23:52.341 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:23:52.341 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:23:53.623 | matter_one_core: Current Free Memory: 32052, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:23:53.625 | matter_one_core: Current Free Memory: 32052, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:23:53.625 | matter_one_core: Current Free Memory: 31968, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:23:53.625 | matter_one_core: Current Free Memory: 53388, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:23:53.625 | After CORE TYPE START: Current Free Memory: 53300, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:23:53.625 | zero_code_product: Current Free Memory: 53300, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:23:55.668 | matter_one_core: Current Free Memory: 70252, Minimum Ever Free Size: 40520, Largest Free Block: 23040
+2026-08-20 15:23:55.874 | matter_one_core: Current Free Memory: 70312, Minimum Ever Free Size: 40376, Largest Free Block: 23040
+2026-08-20 15:23:59.750 | zero_code_product: enter main: 376 ms
+2026-08-20 15:23:59.750 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:23:59.750 | zero_code_utils: Reboot count: 5, reset reason: 1
+2026-08-20 15:23:59.750 | light_matter: restore done: 527 ms
+2026-08-20 15:23:59.750 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:23:59.751 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:23:59.751 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:23:59.751 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:23:59.751 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:23:59.884 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:23:59.884 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:23:59.885 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:23:59.885 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:23:59.885 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:24:00.969 | matter_one_core: Current Free Memory: 32048, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:01.176 | matter_one_core: Current Free Memory: 32048, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:01.176 | matter_one_core: Current Free Memory: 31964, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:01.176 | matter_one_core: Current Free Memory: 53384, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:01.176 | After CORE TYPE START: Current Free Memory: 53296, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:01.176 | zero_code_product: Current Free Memory: 53296, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:03.016 | matter_one_core: Current Free Memory: 70248, Minimum Ever Free Size: 40516, Largest Free Block: 23040
+2026-08-20 15:24:03.421 | matter_one_core: Current Free Memory: 70308, Minimum Ever Free Size: 40372, Largest Free Block: 23040
+2026-08-20 15:24:06.071 | zero_code_product: enter main: 376 ms
+2026-08-20 15:24:06.071 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:24:06.071 | zero_code_utils: Reboot count: 6, reset reason: 1
+2026-08-20 15:24:06.071 | light_matter: restore done: 527 ms
+2026-08-20 15:24:06.208 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:24:06.208 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:24:06.208 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:24:06.208 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:24:06.208 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:24:06.208 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:24:06.208 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:24:06.208 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:24:06.208 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:24:06.209 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:24:07.295 | matter_one_core: Current Free Memory: 32048, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:07.500 | matter_one_core: Current Free Memory: 32048, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:07.500 | matter_one_core: Current Free Memory: 31964, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:07.500 | matter_one_core: Current Free Memory: 53384, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:07.500 | After CORE TYPE START: Current Free Memory: 53296, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:07.500 | zero_code_product: Current Free Memory: 53296, Minimum Ever Free Size: 30512, Largest Free Block: 23040
+2026-08-20 15:24:09.538 | matter_one_core: Current Free Memory: 70248, Minimum Ever Free Size: 40516, Largest Free Block: 23040
+2026-08-20 15:24:09.744 | matter_one_core: Current Free Memory: 70308, Minimum Ever Free Size: 40372, Largest Free Block: 23040
+2026-08-20 15:24:13.285 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:24:13.285 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:24:13.285 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:24:13.285 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:24:14.371 | matter_one_core: Current Free Memory: 32052, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:24:14.577 | matter_one_core: Current Free Memory: 32052, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:24:14.577 | matter_one_core: Current Free Memory: 31968, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:24:14.577 | matter_one_core: Current Free Memory: 53388, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:24:14.577 | After CORE TYPE START: Current Free Memory: 53300, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:24:14.577 | zero_code_product: Current Free Memory: 53300, Minimum Ever Free Size: 30516, Largest Free Block: 23040
+2026-08-20 15:24:16.405 | matter_one_core: Current Free Memory: 70252, Minimum Ever Free Size: 40520, Largest Free Block: 23040
+2026-08-20 15:24:16.808 | matter_one_core: Current Free Memory: 70312, Minimum Ever Free Size: 40376, Largest Free Block: 23040
+2026-08-20 15:24:19.057 | zero_code_product: enter main: 376 ms
+2026-08-20 15:24:19.258 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:24:19.258 | zero_code_utils: Reboot count: 8, reset reason: 1
+2026-08-20 15:24:19.258 | light_matter: restore done: 527 ms
+2026-08-20 15:24:19.258 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:24:19.258 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:24:19.258 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:24:19.258 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:24:19.258 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:24:19.258 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:24:19.258 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:24:19.390 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:24:19.390 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:24:19.390 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:24:20.474 | matter_one_core: Current Free Memory: 31920, Minimum Ever Free Size: 30384, Largest Free Block: 23040
+2026-08-20 15:24:20.475 | matter_one_core: Current Free Memory: 31920, Minimum Ever Free Size: 30384, Largest Free Block: 23040
+2026-08-20 15:24:20.680 | matter_one_core: Current Free Memory: 31836, Minimum Ever Free Size: 30384, Largest Free Block: 23040
+2026-08-20 15:24:20.680 | matter_one_core: Current Free Memory: 53256, Minimum Ever Free Size: 30384, Largest Free Block: 23040
+2026-08-20 15:24:20.680 | After CORE TYPE START: Current Free Memory: 53168, Minimum Ever Free Size: 30384, Largest Free Block: 23040
+2026-08-20 15:24:20.680 | zero_code_product: Current Free Memory: 53168, Minimum Ever Free Size: 30384, Largest Free Block: 23040
+2026-08-20 15:24:22.518 | matter_one_core: Current Free Memory: 70120, Minimum Ever Free Size: 40388, Largest Free Block: 23040
+2026-08-20 15:24:22.923 | matter_one_core: Current Free Memory: 70180, Minimum Ever Free Size: 40244, Largest Free Block: 23040
+2026-08-20 15:24:25.776 | zero_code_product: enter main: 376 ms
+2026-08-20 15:24:25.776 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:24:25.777 | zero_code_utils: Reboot count: 9, reset reason: 1
+2026-08-20 15:24:25.957 | light_matter: restore done: 526 ms
+2026-08-20 15:24:25.958 | zero_code_core: Current Free Memory: 94248, Minimum Ever Free Size: 94248, Largest Free Block: 83968
+2026-08-20 15:24:25.958 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:24:25.958 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:24:25.958 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:24:25.958 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:24:25.958 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:24:25.958 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:24:25.958 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:24:25.958 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:24:25.958 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:24:27.249 | matter_one_core: Current Free Memory: 31912, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 15:24:27.250 | matter_one_core: Current Free Memory: 31912, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 15:24:27.250 | matter_one_core: Current Free Memory: 31828, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 15:24:27.250 | matter_one_core: Current Free Memory: 53248, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 15:24:27.251 | After CORE TYPE START: Current Free Memory: 53160, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 15:24:27.251 | zero_code_product: Current Free Memory: 53160, Minimum Ever Free Size: 30376, Largest Free Block: 23040
+2026-08-20 15:24:31.528 | zero_code_product: enter main: 376 ms
+2026-08-20 15:24:31.529 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:24:31.529 | zero_code_utils: Reboot count: 10, reset reason: 1
+2026-08-20 15:24:31.676 | light_matter: restore done: 527 ms
+2026-08-20 15:24:31.676 | zero_code_core: Current Free Memory: 94248, Minimum Ever Free Size: 94248, Largest Free Block: 83968
+2026-08-20 15:24:31.676 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:24:31.676 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:24:31.676 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:24:31.676 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:24:31.676 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:24:31.676 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:24:31.677 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:24:31.677 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:24:31.677 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:24:32.966 | matter_one_core: Current Free Memory: 31916, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:32.968 | matter_one_core: Current Free Memory: 31916, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:32.968 | matter_one_core: Current Free Memory: 31832, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:32.968 | matter_one_core: Current Free Memory: 53252, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:32.969 | After CORE TYPE START: Current Free Memory: 53164, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:32.969 | zero_code_product: Current Free Memory: 53164, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:35.010 | matter_one_core: Current Free Memory: 70116, Minimum Ever Free Size: 40384, Largest Free Block: 23040
+2026-08-20 15:24:37.857 | zero_code_product: enter main: 376 ms
+2026-08-20 15:24:37.857 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:24:37.857 | zero_code_utils: Reboot count: 11, reset reason: 1
+2026-08-20 15:24:38.028 | light_matter: restore done: 527 ms
+2026-08-20 15:24:38.028 | zero_code_core: Current Free Memory: 94248, Minimum Ever Free Size: 94248, Largest Free Block: 83968
+2026-08-20 15:24:38.028 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:24:38.029 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:24:38.029 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:24:38.029 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:24:38.029 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:24:38.029 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:24:38.029 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:24:38.029 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:24:38.029 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:24:39.322 | matter_one_core: Current Free Memory: 30556, Minimum Ever Free Size: 29020, Largest Free Block: 21504
+2026-08-20 15:24:39.932 | matter_one_core: Current Free Memory: 28916, Minimum Ever Free Size: 28840, Largest Free Block: 19456
+2026-08-20 15:24:40.137 | matter_one_core: Current Free Memory: 28832, Minimum Ever Free Size: 28732, Largest Free Block: 19456
+2026-08-20 15:24:40.137 | matter_one_core: Current Free Memory: 33392, Minimum Ever Free Size: 28732, Largest Free Block: 19456
+2026-08-20 15:24:40.137 | After CORE TYPE START: Current Free Memory: 50388, Minimum Ever Free Size: 28732, Largest Free Block: 19968
+2026-08-20 15:24:40.137 | zero_code_product: Current Free Memory: 50388, Minimum Ever Free Size: 28732, Largest Free Block: 19968
+2026-08-20 15:24:43.594 | zero_code_product: enter main: 376 ms
+2026-08-20 15:24:43.595 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:24:43.795 | zero_code_utils: Reboot count: 12, reset reason: 1
+2026-08-20 15:24:43.795 | light_matter: restore done: 527 ms
+2026-08-20 15:24:43.795 | zero_code_core: Current Free Memory: 94248, Minimum Ever Free Size: 94248, Largest Free Block: 83968
+2026-08-20 15:24:43.795 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:24:43.795 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:24:43.795 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:24:43.795 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:24:43.795 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:24:43.795 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:24:43.795 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:24:43.929 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:24:43.929 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:24:45.015 | matter_one_core: Current Free Memory: 31916, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:45.016 | matter_one_core: Current Free Memory: 31916, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:45.218 | matter_one_core: Current Free Memory: 31832, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:45.219 | matter_one_core: Current Free Memory: 53252, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:45.219 | After CORE TYPE START: Current Free Memory: 53164, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:45.219 | zero_code_product: Current Free Memory: 53164, Minimum Ever Free Size: 30380, Largest Free Block: 23040
+2026-08-20 15:24:47.052 | matter_one_core: Current Free Memory: 70116, Minimum Ever Free Size: 40384, Largest Free Block: 23040
+2026-08-20 15:24:47.461 | matter_one_core: Current Free Memory: 70176, Minimum Ever Free Size: 40240, Largest Free Block: 23040
+2026-08-20 15:24:48.719 | zero_code_utils: Resetting reboot count
+2026-08-20 15:24:48.720 | zero_code_utils: Current Free Memory: 70104, Minimum Ever Free Size: 40032, Largest Free Block: 23040
+2026-08-20 15:24:49.943 | matter_one_core: Current Free Memory: 70212, Minimum Ever Free Size: 40032, Largest Free Block: 23040
+2026-08-20 15:24:52.393 | matter_one_core: Current Free Memory: 70220, Minimum Ever Free Size: 40016, Largest Free Block: 23040
+2026-08-20 15:24:57.488 | matter_one_core: Current Free Memory: 70076, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:00.133 | matter_one_core: Current Free Memory: 70100, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:02.584 | matter_one_core: Current Free Memory: 70088, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:05.233 | matter_one_core: Current Free Memory: 70096, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:10.135 | matter_one_core: Current Free Memory: 70076, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:12.789 | matter_one_core: Current Free Memory: 70092, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:15.235 | matter_one_core: Current Free Memory: 70100, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:17.885 | matter_one_core: Current Free Memory: 70092, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:22.981 | matter_one_core: Current Free Memory: 70076, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:25.430 | matter_one_core: Current Free Memory: 70096, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:28.084 | matter_one_core: Current Free Memory: 70096, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:30.525 | matter_one_core: Current Free Memory: 70096, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:35.628 | matter_one_core: Current Free Memory: 70080, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:38.081 | matter_one_core: Current Free Memory: 70088, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:40.728 | matter_one_core: Current Free Memory: 70100, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:43.172 | matter_one_core: Current Free Memory: 70100, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:48.283 | matter_one_core: Current Free Memory: 70060, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:53.425 | matter_one_core: Current Free Memory: 70088, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:25:56.081 | matter_one_core: Current Free Memory: 70088, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:26:00.985 | matter_one_core: Current Free Memory: 70060, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:26:03.642 | matter_one_core: Current Free Memory: 70088, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:26:06.092 | matter_one_core: Current Free Memory: 70088, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:26:08.742 | matter_one_core: Current Free Memory: 70088, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:26:13.643 | matter_one_core: Current Free Memory: 69928, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:26:16.294 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:26:18.746 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:26:21.400 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37084, Largest Free Block: 23040
+2026-08-20 15:26:26.362 | matter_one_core: Current Free Memory: 69928, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:29.012 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:31.465 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:34.114 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:39.219 | matter_one_core: Current Free Memory: 69928, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:41.704 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:44.154 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:46.806 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:47.828 | matter_one_core: Current Free Memory: 67060, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:47.828 | matter_one_core: Current Free Memory: 67060, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:51.701 | matter_one_core: Current Free Memory: 69924, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:54.344 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:56.994 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:26:59.442 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 37048, Largest Free Block: 23040
+2026-08-20 15:27:04.540 | matter_one_core: Current Free Memory: 69916, Minimum Ever Free Size: 37028, Largest Free Block: 23040
+2026-08-20 15:27:06.989 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 37028, Largest Free Block: 23040
+2026-08-20 15:27:09.630 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 37028, Largest Free Block: 23040
+2026-08-20 15:27:12.082 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 37028, Largest Free Block: 23040
+2026-08-20 15:27:17.182 | matter_one_core: Current Free Memory: 69916, Minimum Ever Free Size: 37028, Largest Free Block: 23040
+2026-08-20 15:27:19.832 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 37028, Largest Free Block: 23040
+2026-08-20 15:27:22.274 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 37028, Largest Free Block: 23040
+2026-08-20 15:27:24.929 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 37028, Largest Free Block: 23040
+2026-08-20 15:27:29.821 | matter_one_core: Current Free Memory: 69916, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:27:32.467 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:27:34.917 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:27:37.572 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:27:42.670 | matter_one_core: Current Free Memory: 69916, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:27:45.118 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:27:47.773 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:27:50.216 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:27:55.404 | matter_one_core: Current Free Memory: 69916, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:27:57.853 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:00.503 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:02.952 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:08.048 | matter_one_core: Current Free Memory: 69916, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:10.492 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:13.141 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:15.591 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:20.688 | matter_one_core: Current Free Memory: 69916, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:23.341 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:25.788 | matter_one_core: Current Free Memory: 69944, Minimum Ever Free Size: 36980, Largest Free Block: 23040
+2026-08-20 15:28:27.827 | matter_one_core: Current Free Memory: 69740, Minimum Ever Free Size: 35048, Largest Free Block: 23040
+2026-08-20 15:28:30.476 | matter_one_core: Current Free Memory: 69900, Minimum Ever Free Size: 35048, Largest Free Block: 23040
+2026-08-20 15:28:31.707 | matter_one_core: Current Free Memory: 69004, Minimum Ever Free Size: 35004, Largest Free Block: 23040
+2026-08-20 15:28:31.707 | matter_one_core: Current Free Memory: 69004, Minimum Ever Free Size: 35004, Largest Free Block: 23040
+2026-08-20 15:28:33.337 | matter_one_core: Current Free Memory: 68564, Minimum Ever Free Size: 35004, Largest Free Block: 23040
+2026-08-20 15:28:33.337 | matter_one_core: Current Free Memory: 68564, Minimum Ever Free Size: 35004, Largest Free Block: 23040
+2026-08-20 15:28:33.337 | matter_one_core: Current Free Memory: 63540, Minimum Ever Free Size: 31344, Largest Free Block: 23040
+2026-08-20 15:28:33.337 | matter_one_core: Current Free Memory: 64424, Minimum Ever Free Size: 31344, Largest Free Block: 23040
+2026-08-20 15:28:38.629 | matter_one_core: Current Free Memory: 61412, Minimum Ever Free Size: 30972, Largest Free Block: 23040
+2026-08-20 15:28:38.629 | matter_one_core: Current Free Memory: 61412, Minimum Ever Free Size: 30972, Largest Free Block: 23040
+2026-08-20 15:28:38.629 | matter_one_core: Current Free Memory: 61464, Minimum Ever Free Size: 30972, Largest Free Block: 23040
+2026-08-20 15:32:31.031 | zero_code_product: enter main: 376 ms
+2026-08-20 15:32:31.031 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:32:31.031 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-20 15:32:31.173 | light_matter: restore done: 527 ms
+2026-08-20 15:32:31.174 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:32:31.174 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:32:31.174 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:32:31.174 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:32:31.174 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:32:31.174 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:32:31.174 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:32:31.174 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:32:31.174 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:32:31.174 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:32:32.468 | matter_one_core: Current Free Memory: 30640, Minimum Ever Free Size: 29104, Largest Free Block: 21504
+2026-08-20 15:32:33.284 | matter_one_core: Current Free Memory: 28996, Minimum Ever Free Size: 28924, Largest Free Block: 19968
+2026-08-20 15:32:33.284 | matter_one_core: Current Free Memory: 29100, Minimum Ever Free Size: 28856, Largest Free Block: 19968
+2026-08-20 15:32:33.284 | matter_one_core: Current Free Memory: 33712, Minimum Ever Free Size: 28856, Largest Free Block: 19968
+2026-08-20 15:32:33.284 | After CORE TYPE START: Current Free Memory: 50484, Minimum Ever Free Size: 28856, Largest Free Block: 19968
+2026-08-20 15:32:33.284 | zero_code_product: Current Free Memory: 50484, Minimum Ever Free Size: 28856, Largest Free Block: 19968
+2026-08-20 15:32:36.953 | zero_code_product: enter main: 376 ms
+2026-08-20 15:32:36.953 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:32:36.953 | zero_code_utils: Reboot count: 2, reset reason: 1
+2026-08-20 15:32:36.953 | light_matter: restore done: 527 ms
+2026-08-20 15:32:36.953 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:32:36.953 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:32:36.953 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:32:36.954 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:32:36.954 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:32:36.954 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:32:36.954 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:32:37.087 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:32:37.087 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:32:37.087 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:32:38.379 | matter_one_core: Current Free Memory: 30664, Minimum Ever Free Size: 29128, Largest Free Block: 21504
+2026-08-20 15:32:38.988 | matter_one_core: Current Free Memory: 29044, Minimum Ever Free Size: 28972, Largest Free Block: 19968
+2026-08-20 15:32:38.989 | matter_one_core: Current Free Memory: 29220, Minimum Ever Free Size: 28972, Largest Free Block: 19968
+2026-08-20 15:32:39.193 | matter_one_core: Current Free Memory: 33780, Minimum Ever Free Size: 28972, Largest Free Block: 19968
+2026-08-20 15:32:39.193 | After CORE TYPE START: Current Free Memory: 50552, Minimum Ever Free Size: 28972, Largest Free Block: 19968
+2026-08-20 15:32:39.193 | zero_code_product: Current Free Memory: 50552, Minimum Ever Free Size: 28972, Largest Free Block: 19968
+2026-08-20 15:32:39.396 | matter_one_core: Current Free Memory: 59272, Minimum Ever Free Size: 28972, Largest Free Block: 21504
+2026-08-20 15:32:39.396 | matter_one_core: Current Free Memory: 59272, Minimum Ever Free Size: 28972, Largest Free Block: 21504
+2026-08-20 15:32:42.648 | zero_code_product: enter main: 376 ms
+2026-08-20 15:32:42.649 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:32:42.849 | zero_code_utils: Reboot count: 3, reset reason: 1
+2026-08-20 15:32:42.849 | light_matter: restore done: 527 ms
+2026-08-20 15:32:42.849 | zero_code_core: Current Free Memory: 94336, Minimum Ever Free Size: 94336, Largest Free Block: 83968
+2026-08-20 15:32:42.849 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:32:42.849 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:32:42.850 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:32:42.850 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:32:42.850 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:32:42.850 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:32:42.850 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:32:42.850 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:32:42.850 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:32:44.134 | matter_one_core: Current Free Memory: 30776, Minimum Ever Free Size: 29256, Largest Free Block: 21504
+2026-08-20 15:32:44.951 | matter_one_core: Current Free Memory: 28972, Minimum Ever Free Size: 28900, Largest Free Block: 19968
+2026-08-20 15:32:44.951 | matter_one_core: Current Free Memory: 29148, Minimum Ever Free Size: 28900, Largest Free Block: 19968
+2026-08-20 15:32:44.951 | matter_one_core: Current Free Memory: 33708, Minimum Ever Free Size: 28900, Largest Free Block: 19968
+2026-08-20 15:32:44.952 | After CORE TYPE START: Current Free Memory: 50480, Minimum Ever Free Size: 28900, Largest Free Block: 19968
+2026-08-20 15:32:44.952 | zero_code_product: Current Free Memory: 50480, Minimum Ever Free Size: 28900, Largest Free Block: 19968
+2026-08-20 15:32:47.804 | zero_code_product: enter main: 376 ms
+2026-08-20 15:32:47.804 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-20 15:32:47.804 | zero_code_utils: Reboot count: 4, reset reason: 1
+2026-08-20 15:32:47.979 | light_matter: restore done: 527 ms
+2026-08-20 15:32:47.979 | zero_code_core: Current Free Memory: 94380, Minimum Ever Free Size: 94380, Largest Free Block: 83968
+2026-08-20 15:32:47.979 | zero_code_utils: Chip: esp32c2
+2026-08-20 15:32:47.979 | zero_code_utils: Software Version: 1.4.0
+2026-08-20 15:32:47.979 | zero_code_utils: Software Version Number: 10040000
+2026-08-20 15:32:47.979 | zero_code_utils: Software Version Suffix: 875
+2026-08-20 15:32:47.979 | zero_code_utils: Firmware Type: Evaluation
+2026-08-20 15:32:47.979 | zero_code_utils: MAC: 58:2a:bd:38:1f:f4
+2026-08-20 15:32:47.979 | zero_code_utils: RainMaker Node ID: b1ed4290-1dc3-4ca8-93fa-c6b15346486f
+2026-08-20 15:32:47.979 | zero_code_utils: Matter Serial Number: b1ed42901dc34ca893fac6b15346486f
+2026-08-20 15:32:47.980 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-20 15:32:49.271 | matter_one_core: Current Free Memory: 30516, Minimum Ever Free Size: 28980, Largest Free Block: 21504
+2026-08-20 15:32:50.091 | matter_one_core: Current Free Memory: 28856, Minimum Ever Free Size: 28780, Largest Free Block: 19456
+2026-08-20 15:32:50.091 | matter_one_core: Current Free Memory: 29020, Minimum Ever Free Size: 28780, Largest Free Block: 19968
+2026-08-20 15:32:50.092 | matter_one_core: Current Free Memory: 33580, Minimum Ever Free Size: 28780, Largest Free Block: 19968
+2026-08-20 15:32:50.092 | After CORE TYPE START: Current Free Memory: 50352, Minimum Ever Free Size: 28780, Largest Free Block: 19968
+2026-08-20 15:32:50.092 | zero_code_product: Current Free Memory: 50352, Minimum Ever Free Size: 28780, Largest Free Block: 19968
+2026-08-20 15:32:50.293 | matter_one_core: Current Free Memory: 59096, Minimum Ever Free Size: 28780, Largest Free Block: 21504
+2026-08-20 15:32:50.294 | matter_one_core: Current Free Memory: 59096, Minimum Ever Free Size: 28780, Largest Free Block: 21504
+2026-08-20 15:32:51.513 | matter_one_core: Current Free Memory: 58672, Minimum Ever Free Size: 28780, Largest Free Block: 21504
+2026-08-20 15:32:51.513 | matter_one_core: Current Free Memory: 58636, Minimum Ever Free Size: 28780, Largest Free Block: 21504
+2026-08-20 15:32:51.513 | matter_one_core: Current Free Memory: 51788, Minimum Ever Free Size: 28780, Largest Free Block: 21504
+2026-08-20 15:32:51.514 | matter_one_core: Current Free Memory: 51788, Minimum Ever Free Size: 28780, Largest Free Block: 21504
+2026-08-20 15:32:51.919 | matter_one_core: Current Free Memory: 66112, Minimum Ever Free Size: 38784, Largest Free Block: 21504
+2026-08-20 15:32:52.941 | zero_code_utils: Resetting reboot count
+2026-08-20 15:32:52.941 | zero_code_utils: Current Free Memory: 66048, Minimum Ever Free Size: 35344, Largest Free Block: 21504
+2026-08-20 15:32:53.349 | matter_one_core: Current Free Memory: 61460, Minimum Ever Free Size: 34000, Largest Free Block: 21504
+2026-08-20 15:32:53.349 | matter_one_core: Current Free Memory: 61460, Minimum Ever Free Size: 34000, Largest Free Block: 21504
+2026-08-20 15:32:53.349 | matter_one_core: Current Free Memory: 61636, Minimum Ever Free Size: 32424, Largest Free Block: 21504

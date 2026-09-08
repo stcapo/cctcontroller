@@ -1,0 +1,13 @@
+BOOT BASELINE 2026-08-17 11:56:23
+port=/dev/cu.usbserial-14220 baud=74880
+rst=POWERON boot=SPI_FAST_FLASH_BOOT
+fw=ZeroCode 1.4.0 suffix 875 type=Evaluation
+chip=esp32c2 MAC=58:2a:bd:38:20:30
+matter_sn=c95e5100db2a402c86183c4b920bf513
+light_matter restore done at +512ms
+enable_light_sleep=true  max_freq=160  min_freq=10
+heap after matter start: free~31776 largest~22528
+heap idle: free~69956 largest=22528 min_ever=37040
+NO wifi ssid/ip/connect/disconnect/mdns/case logs
+repeating chan:1-14 max_power:80 every ~2.5s
+no error/fail strings after boot

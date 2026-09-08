@@ -1,0 +1,479 @@
+# serial capture start 2026-08-17 11:53:47.781
+# port=/dev/cu.usbserial-14220 baud=74880
+2026-08-17 11:56:24.169 | zero_code_product: enter main: 376 ms
+2026-08-17 11:56:24.169 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-17 11:56:24.170 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-17 11:56:24.305 | light_matter: restore done: 512 ms
+2026-08-17 11:56:24.306 | zero_code_core: Current Free Memory: 94248, Minimum Ever Free Size: 94248, Largest Free Block: 83968
+2026-08-17 11:56:24.306 | zero_code_utils: Chip: esp32c2
+2026-08-17 11:56:24.306 | zero_code_utils: Software Version: 1.4.0
+2026-08-17 11:56:24.306 | zero_code_utils: Software Version Number: 10040000
+2026-08-17 11:56:24.306 | zero_code_utils: Software Version Suffix: 875
+2026-08-17 11:56:24.306 | zero_code_utils: Firmware Type: Evaluation
+2026-08-17 11:56:24.306 | zero_code_utils: MAC: 58:2a:bd:38:20:30
+2026-08-17 11:56:24.306 | zero_code_utils: RainMaker Node ID: c95e5100-db2a-402c-8618-3c4b920bf513
+2026-08-17 11:56:24.306 | zero_code_utils: Matter Serial Number: c95e5100db2a402c86183c4b920bf513
+2026-08-17 11:56:24.306 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-17 11:56:24.780 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":1,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-17 11:56:25.590 | matter_one_core: Current Free Memory: 31776, Minimum Ever Free Size: 30240, Largest Free Block: 23040
+2026-08-17 11:56:25.592 | matter_one_core: Current Free Memory: 31776, Minimum Ever Free Size: 30240, Largest Free Block: 23040
+2026-08-17 11:56:25.592 | matter_one_core: Current Free Memory: 31692, Minimum Ever Free Size: 30240, Largest Free Block: 22528
+2026-08-17 11:56:25.592 | matter_one_core: Current Free Memory: 53112, Minimum Ever Free Size: 30240, Largest Free Block: 22528
+2026-08-17 11:56:25.592 | After CORE TYPE START: Current Free Memory: 53024, Minimum Ever Free Size: 30240, Largest Free Block: 22528
+2026-08-17 11:56:25.592 | zero_code_product: Current Free Memory: 53024, Minimum Ever Free Size: 30240, Largest Free Block: 22528
+2026-08-17 11:56:27.637 | matter_one_core: Current Free Memory: 69976, Minimum Ever Free Size: 40244, Largest Free Block: 22528
+2026-08-17 11:56:27.840 | matter_one_core: Current Free Memory: 70036, Minimum Ever Free Size: 40100, Largest Free Block: 22528
+2026-08-17 11:56:29.263 | zero_code_utils: Resetting reboot count
+2026-08-17 11:56:29.263 | zero_code_utils: Current Free Memory: 69964, Minimum Ever Free Size: 39892, Largest Free Block: 22528
+2026-08-17 11:56:30.280 | matter_one_core: Current Free Memory: 70072, Minimum Ever Free Size: 39892, Largest Free Block: 22528
+2026-08-17 11:56:35.360 | matter_one_core: Current Free Memory: 69940, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:56:38.005 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:56:40.450 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:56:43.099 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:56:48.188 | matter_one_core: Current Free Memory: 69932, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:56:50.633 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:56:53.281 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:56:55.721 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:00.799 | matter_one_core: Current Free Memory: 69940, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:03.437 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:05.884 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:08.532 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:13.433 | matter_one_core: Current Free Memory: 69932, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:16.081 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:18.523 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:21.162 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:26.260 | matter_one_core: Current Free Memory: 69932, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:28.917 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:31.345 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37040, Largest Free Block: 22528
+2026-08-17 11:57:36.424 | matter_one_core: Current Free Memory: 69920, Minimum Ever Free Size: 37028, Largest Free Block: 22528
+2026-08-17 11:57:39.062 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37028, Largest Free Block: 22528
+2026-08-17 11:57:41.504 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37028, Largest Free Block: 22528
+2026-08-17 11:57:44.149 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37028, Largest Free Block: 22528
+2026-08-17 11:57:49.026 | matter_one_core: Current Free Memory: 69924, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:57:51.665 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:57:54.306 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:57:56.749 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:01.830 | matter_one_core: Current Free Memory: 69924, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:04.477 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:06.923 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:09.575 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:14.654 | matter_one_core: Current Free Memory: 69920, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:17.097 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:19.734 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:22.181 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:27.257 | matter_one_core: Current Free Memory: 69920, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:27.663 | matter_one_core: Current Free Memory: 69868, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:27.867 | matter_one_core: Current Free Memory: 69868, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:29.727 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:32.376 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:34.809 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:39.896 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:42.540 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:44.979 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:47.631 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 37016, Largest Free Block: 22528
+2026-08-17 11:58:52.706 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36900, Largest Free Block: 22528
+2026-08-17 11:58:55.151 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36900, Largest Free Block: 22528
+2026-08-17 11:58:57.801 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36900, Largest Free Block: 22528
+2026-08-17 11:59:00.236 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36900, Largest Free Block: 22528
+2026-08-17 11:59:05.325 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36900, Largest Free Block: 22528
+2026-08-17 11:59:07.958 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36900, Largest Free Block: 22528
+2026-08-17 11:59:10.390 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36900, Largest Free Block: 22528
+2026-08-17 11:59:13.031 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36900, Largest Free Block: 22528
+2026-08-17 11:59:18.109 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:20.553 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:23.199 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:25.642 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:30.743 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:33.184 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:35.821 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:38.461 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:43.345 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:45.993 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:48.434 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:51.073 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:56.161 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 11:59:58.806 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:01.248 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:03.913 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:08.798 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:11.444 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:13.884 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:16.536 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:21.636 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:24.080 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:26.716 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:29.160 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:30.178 | matter_one_core: Current Free Memory: 66908, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:30.179 | matter_one_core: Current Free Memory: 66908, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:34.281 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:36.714 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:39.355 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:41.784 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:46.871 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:49.519 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:51.960 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:54.606 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:00:59.683 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:02.119 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:04.762 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:07.209 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:12.290 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:14.742 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:17.389 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:20.034 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:24.911 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:27.548 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:30.188 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:32.628 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:37.705 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:40.138 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:42.781 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:45.417 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:50.475 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:52.912 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:55.553 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:01:57.981 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:03.049 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:05.693 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:08.140 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:10.787 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:15.871 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:18.307 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:20.949 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:23.387 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:28.478 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:31.125 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:33.573 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:34.184 | matter_one_core: Current Free Memory: 69764, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:34.184 | matter_one_core: Current Free Memory: 69764, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:36.216 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:41.297 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:43.745 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:46.386 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:48.829 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:53.916 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:56.361 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:02:59.011 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:01.476 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:06.613 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:09.254 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:11.697 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:14.347 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:19.234 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:21.876 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:24.318 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:26.964 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:31.891 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:34.527 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:37.013 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:39.659 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:44.744 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:47.183 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:49.827 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:52.270 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:57.352 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:03:59.992 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:02.435 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:05.087 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:09.988 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:12.636 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:15.081 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:17.727 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:22.787 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:25.232 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:27.872 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:30.514 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36896, Largest Free Block: 22528
+2026-08-17 12:04:35.385 | matter_one_core: Current Free Memory: 69796, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:04:36.201 | matter_one_core: Current Free Memory: 69744, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:04:36.201 | matter_one_core: Current Free Memory: 69744, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:04:38.031 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:04:40.540 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:04:43.185 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:04:48.113 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:04:50.750 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:04:53.201 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:04:55.875 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:05:00.771 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:05:03.444 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:05:06.015 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:05:08.460 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:05:13.554 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:05:15.996 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:05:18.640 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:05:21.289 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36884, Largest Free Block: 22528
+2026-08-17 12:05:26.171 | matter_one_core: Current Free Memory: 69796, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:28.812 | matter_one_core: Current Free Memory: 69804, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:31.459 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:33.898 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:38.832 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:41.481 | matter_one_core: Current Free Memory: 69804, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:44.128 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:46.568 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:51.643 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:54.281 | matter_one_core: Current Free Memory: 69812, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:56.713 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:05:59.300 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:04.269 | matter_one_core: Current Free Memory: 69804, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:06.914 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:09.359 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:12.007 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:16.892 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:19.538 | matter_one_core: Current Free Memory: 69804, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:22.180 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:24.619 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:29.695 | matter_one_core: Current Free Memory: 69804, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:32.140 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:34.782 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:37.455 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:38.269 | matter_one_core: Current Free Memory: 66908, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:38.269 | matter_one_core: Current Free Memory: 66908, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:42.335 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:44.966 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:47.411 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:50.060 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:55.129 | matter_one_core: Current Free Memory: 69780, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:06:57.578 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:00.228 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:02.665 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:07.948 | matter_one_core: Current Free Memory: 69780, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:10.385 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:13.028 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:17.919 | matter_one_core: Current Free Memory: 69780, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:20.582 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:23.219 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:25.670 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:30.753 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:33.201 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:35.864 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:38.512 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:43.387 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:46.032 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:48.472 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:51.116 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:56.204 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:07:58.635 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:01.290 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:03.735 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:08.831 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:11.278 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:13.923 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:16.365 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:21.458 | matter_one_core: Current Free Memory: 69788, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:24.101 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:26.552 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:29.083 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:34.172 | matter_one_core: Current Free Memory: 69780, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:36.819 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:39.254 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:41.895 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:42.909 | matter_one_core: Current Free Memory: 66936, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:42.910 | matter_one_core: Current Free Memory: 66936, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:46.982 | matter_one_core: Current Free Memory: 69796, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:49.423 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:52.064 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:54.511 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:08:59.592 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:02.238 | matter_one_core: Current Free Memory: 69804, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:04.680 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:07.332 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:12.219 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:14.870 | matter_one_core: Current Free Memory: 69804, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:17.516 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:19.953 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:25.082 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:27.518 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:30.167 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:32.610 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:37.769 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:40.355 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:42.787 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:45.437 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:50.326 | matter_one_core: Current Free Memory: 69780, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:52.974 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:55.461 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:09:58.109 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:02.985 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:05.631 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:08.272 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:10.715 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:15.786 | matter_one_core: Current Free Memory: 69780, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:18.427 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:20.867 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:23.514 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:28.517 | matter_one_core: Current Free Memory: 69796, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:30.958 | matter_one_core: Current Free Memory: 69804, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:33.610 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:36.049 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:41.134 | matter_one_core: Current Free Memory: 69800, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:43.771 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:46.214 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:46.824 | matter_one_core: Current Free Memory: 69768, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:46.826 | matter_one_core: Current Free Memory: 69768, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:48.857 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:53.939 | matter_one_core: Current Free Memory: 69796, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:56.379 | matter_one_core: Current Free Memory: 69812, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:10:59.028 | matter_one_core: Current Free Memory: 69812, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:01.465 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:06.553 | matter_one_core: Current Free Memory: 69796, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:09.197 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:11.635 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:14.283 | matter_one_core: Current Free Memory: 69812, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:19.377 | matter_one_core: Current Free Memory: 69796, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:21.813 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:24.457 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:26.899 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:31.983 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:34.626 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:37.073 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:39.717 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:44.612 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:47.251 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:49.691 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:52.338 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:57.424 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:11:59.861 | matter_one_core: Current Free Memory: 69796, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:12:02.503 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:12:04.943 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:12:10.032 | matter_one_core: Current Free Memory: 69792, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:12:12.701 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:12:15.143 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:12:17.780 | matter_one_core: Current Free Memory: 69808, Minimum Ever Free Size: 36876, Largest Free Block: 22528
+2026-08-17 12:12:25.086 | zero_code_product: enter main: 376 ms
+2026-08-17 12:12:25.086 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-17 12:12:25.086 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-17 12:12:25.086 | light_matter: restore done: 512 ms
+2026-08-17 12:12:25.221 | zero_code_core: Current Free Memory: 93984, Minimum Ever Free Size: 93984, Largest Free Block: 83968
+2026-08-17 12:12:25.221 | zero_code_utils: Chip: esp32c2
+2026-08-17 12:12:25.221 | zero_code_utils: Software Version: 1.4.0
+2026-08-17 12:12:25.221 | zero_code_utils: Software Version Number: 10040000
+2026-08-17 12:12:25.221 | zero_code_utils: Software Version Suffix: 875
+2026-08-17 12:12:25.221 | zero_code_utils: Firmware Type: Evaluation
+2026-08-17 12:12:25.222 | zero_code_utils: MAC: 58:2a:bd:38:20:30
+2026-08-17 12:12:25.222 | zero_code_utils: RainMaker Node ID: c95e5100-db2a-402c-8618-3c4b920bf513
+2026-08-17 12:12:25.222 | zero_code_utils: Matter Serial Number: c95e5100db2a402c86183c4b920bf513
+2026-08-17 12:12:25.222 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-17 12:12:25.699 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":1,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-17 12:12:26.307 | matter_one_core: Current Free Memory: 31652, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:12:26.513 | matter_one_core: Current Free Memory: 31652, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:12:26.513 | matter_one_core: Current Free Memory: 31516, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:12:26.514 | matter_one_core: Current Free Memory: 52988, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:12:26.514 | After CORE TYPE START: Current Free Memory: 52900, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:12:26.514 | zero_code_product: Current Free Memory: 52900, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:12:28.360 | matter_one_core: Current Free Memory: 69852, Minimum Ever Free Size: 40120, Largest Free Block: 22528
+2026-08-17 12:12:28.766 | matter_one_core: Current Free Memory: 69912, Minimum Ever Free Size: 39976, Largest Free Block: 22528
+2026-08-17 12:12:30.188 | zero_code_utils: Resetting reboot count
+2026-08-17 12:12:30.188 | zero_code_utils: Current Free Memory: 69840, Minimum Ever Free Size: 39768, Largest Free Block: 22528
+2026-08-17 12:12:31.210 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 39768, Largest Free Block: 22528
+2026-08-17 12:12:41.168 | zero_code_product: enter main: 376 ms
+2026-08-17 12:12:41.170 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-17 12:12:41.170 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-17 12:12:41.170 | light_matter: restore done: 513 ms
+2026-08-17 12:12:41.170 | zero_code_core: Current Free Memory: 93984, Minimum Ever Free Size: 93984, Largest Free Block: 83968
+2026-08-17 12:12:41.170 | zero_code_utils: Chip: esp32c2
+2026-08-17 12:12:41.171 | zero_code_utils: Software Version: 1.4.0
+2026-08-17 12:12:41.171 | zero_code_utils: Software Version Number: 10040000
+2026-08-17 12:12:41.171 | zero_code_utils: Software Version Suffix: 875
+2026-08-17 12:12:41.171 | zero_code_utils: Firmware Type: Evaluation
+2026-08-17 12:12:41.171 | zero_code_utils: MAC: 58:2a:bd:38:20:30
+2026-08-17 12:12:41.171 | zero_code_utils: RainMaker Node ID: c95e5100-db2a-402c-8618-3c4b920bf513
+2026-08-17 12:12:41.304 | zero_code_utils: Matter Serial Number: c95e5100db2a402c86183c4b920bf513
+2026-08-17 12:12:41.304 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-17 12:12:41.577 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":1,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-17 12:12:42.390 | matter_one_core: Current Free Memory: 31656, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:42.391 | matter_one_core: Current Free Memory: 31656, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:42.391 | matter_one_core: Current Free Memory: 31520, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:42.391 | matter_one_core: Current Free Memory: 52992, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:42.595 | After CORE TYPE START: Current Free Memory: 52904, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:42.595 | zero_code_product: Current Free Memory: 52904, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:44.413 | matter_one_core: Current Free Memory: 69856, Minimum Ever Free Size: 40124, Largest Free Block: 22528
+2026-08-17 12:12:44.819 | matter_one_core: Current Free Memory: 69916, Minimum Ever Free Size: 39980, Largest Free Block: 22528
+2026-08-17 12:12:46.240 | zero_code_utils: Resetting reboot count
+2026-08-17 12:12:46.240 | zero_code_utils: Current Free Memory: 67104, Minimum Ever Free Size: 36924, Largest Free Block: 22528
+2026-08-17 12:12:56.197 | zero_code_product: enter main: 376 ms
+2026-08-17 12:12:56.197 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-17 12:12:56.198 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-17 12:12:56.198 | light_matter: restore done: 513 ms
+2026-08-17 12:12:56.331 | zero_code_core: Current Free Memory: 93984, Minimum Ever Free Size: 93984, Largest Free Block: 83968
+2026-08-17 12:12:56.332 | zero_code_utils: Chip: esp32c2
+2026-08-17 12:12:56.332 | zero_code_utils: Software Version: 1.4.0
+2026-08-17 12:12:56.332 | zero_code_utils: Software Version Number: 10040000
+2026-08-17 12:12:56.332 | zero_code_utils: Software Version Suffix: 875
+2026-08-17 12:12:56.332 | zero_code_utils: Firmware Type: Evaluation
+2026-08-17 12:12:56.332 | zero_code_utils: MAC: 58:2a:bd:38:20:30
+2026-08-17 12:12:56.332 | zero_code_utils: RainMaker Node ID: c95e5100-db2a-402c-8618-3c4b920bf513
+2026-08-17 12:12:56.332 | zero_code_utils: Matter Serial Number: c95e5100db2a402c86183c4b920bf513
+2026-08-17 12:12:56.332 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-17 12:12:56.808 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":1,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-17 12:12:57.417 | matter_one_core: Current Free Memory: 31656, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:57.621 | matter_one_core: Current Free Memory: 31656, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:57.621 | matter_one_core: Current Free Memory: 31572, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:57.621 | matter_one_core: Current Free Memory: 52992, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:57.621 | After CORE TYPE START: Current Free Memory: 52904, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:57.622 | zero_code_product: Current Free Memory: 52904, Minimum Ever Free Size: 30120, Largest Free Block: 22528
+2026-08-17 12:12:59.447 | matter_one_core: Current Free Memory: 69856, Minimum Ever Free Size: 40124, Largest Free Block: 22528
+2026-08-17 12:12:59.858 | matter_one_core: Current Free Memory: 69916, Minimum Ever Free Size: 39980, Largest Free Block: 22528
+2026-08-17 12:13:01.279 | zero_code_utils: Resetting reboot count
+2026-08-17 12:13:01.279 | zero_code_utils: Current Free Memory: 69844, Minimum Ever Free Size: 39772, Largest Free Block: 22528
+2026-08-17 12:13:02.302 | matter_one_core: Current Free Memory: 69952, Minimum Ever Free Size: 39772, Largest Free Block: 22528
+2026-08-17 12:13:07.375 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36920, Largest Free Block: 22528
+2026-08-17 12:13:10.015 | matter_one_core: Current Free Memory: 69836, Minimum Ever Free Size: 36920, Largest Free Block: 22528
+2026-08-17 12:13:16.514 | zero_code_product: enter main: 376 ms
+2026-08-17 12:13:16.514 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-17 12:13:16.514 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-17 12:13:16.694 | light_matter: restore done: 513 ms
+2026-08-17 12:13:16.694 | zero_code_core: Current Free Memory: 93984, Minimum Ever Free Size: 93984, Largest Free Block: 83968
+2026-08-17 12:13:16.694 | zero_code_utils: Chip: esp32c2
+2026-08-17 12:13:16.695 | zero_code_utils: Software Version: 1.4.0
+2026-08-17 12:13:16.695 | zero_code_utils: Software Version Number: 10040000
+2026-08-17 12:13:16.695 | zero_code_utils: Software Version Suffix: 875
+2026-08-17 12:13:16.695 | zero_code_utils: Firmware Type: Evaluation
+2026-08-17 12:13:16.696 | zero_code_utils: MAC: 58:2a:bd:38:20:30
+2026-08-17 12:13:16.696 | zero_code_utils: RainMaker Node ID: c95e5100-db2a-402c-8618-3c4b920bf513
+2026-08-17 12:13:16.696 | zero_code_utils: Matter Serial Number: c95e5100db2a402c86183c4b920bf513
+2026-08-17 12:13:16.696 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-17 12:13:17.170 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":1,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-17 12:13:17.784 | matter_one_core: Current Free Memory: 31652, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:17.990 | matter_one_core: Current Free Memory: 31652, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:17.991 | matter_one_core: Current Free Memory: 31568, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:17.991 | matter_one_core: Current Free Memory: 52988, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:17.991 | After CORE TYPE START: Current Free Memory: 52900, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:17.991 | zero_code_product: Current Free Memory: 52900, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:20.019 | matter_one_core: Current Free Memory: 69852, Minimum Ever Free Size: 40120, Largest Free Block: 22528
+2026-08-17 12:13:20.225 | matter_one_core: Current Free Memory: 69912, Minimum Ever Free Size: 39976, Largest Free Block: 22528
+2026-08-17 12:13:21.654 | zero_code_utils: Resetting reboot count
+2026-08-17 12:13:21.655 | zero_code_utils: Current Free Memory: 69840, Minimum Ever Free Size: 39768, Largest Free Block: 22528
+2026-08-17 12:13:22.667 | matter_one_core: Current Free Memory: 69948, Minimum Ever Free Size: 39768, Largest Free Block: 22528
+2026-08-17 12:13:25.317 | matter_one_core: Current Free Memory: 69956, Minimum Ever Free Size: 39752, Largest Free Block: 22528
+2026-08-17 12:13:30.401 | matter_one_core: Current Free Memory: 69812, Minimum Ever Free Size: 36816, Largest Free Block: 22528
+2026-08-17 12:13:32.851 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36816, Largest Free Block: 22528
+2026-08-17 12:13:39.360 | zero_code_product: enter main: 376 ms
+2026-08-17 12:13:39.360 | zero_code_product: Current Free Memory: 129680, Minimum Ever Free Size: 129680, Largest Free Block: 120832
+2026-08-17 12:13:39.360 | zero_code_utils: Reboot count: 1, reset reason: 1
+2026-08-17 12:13:39.360 | light_matter: restore done: 513 ms
+2026-08-17 12:13:39.360 | zero_code_core: Current Free Memory: 93984, Minimum Ever Free Size: 93984, Largest Free Block: 83968
+2026-08-17 12:13:39.493 | zero_code_utils: Chip: esp32c2
+2026-08-17 12:13:39.493 | zero_code_utils: Software Version: 1.4.0
+2026-08-17 12:13:39.493 | zero_code_utils: Software Version Number: 10040000
+2026-08-17 12:13:39.493 | zero_code_utils: Software Version Suffix: 875
+2026-08-17 12:13:39.493 | zero_code_utils: Firmware Type: Evaluation
+2026-08-17 12:13:39.493 | zero_code_utils: MAC: 58:2a:bd:38:20:30
+2026-08-17 12:13:39.494 | zero_code_utils: RainMaker Node ID: c95e5100-db2a-402c-8618-3c4b920bf513
+2026-08-17 12:13:39.494 | zero_code_utils: Matter Serial Number: c95e5100db2a402c86183c4b920bf513
+2026-08-17 12:13:39.494 | zero_code_utils: Firmware partition offset: 0x10000
+2026-08-17 12:13:39.967 | zero_code_utils: Product Config: {"config_version":3,"pre_driver":[{"type":"ezc.pre_driver.power_management","enable_light_sleep":true,"max_freq_mhz":160,"min_freq_mhz":10}],"driver":[{"id":1000,"type":"ezc.driver.led","name":"pwm","lighting_config":{"enable_gradient":true,"enable_memory":false,"enable_lowpower":false,"sync_change_brightness":true,"disable_auto_on":true,"beads_comb":3,"fades_ms":800},"pwm_config":{"pwm_hz":4000,"temperature_mode":1,"gpio_red":-1,"gpio_green":-1,"gpio_blue":-1,"gpio_cold_or_cct":5,"gpio_warm_or_brightness":4},"hardware_config":{"white_min":10,"white_max":100,"white_power_max":100,"rgb_min":10,"rgb_max":100,"rgb_power_max":300},"gamma_config":{"enable_gamma_adjust":true,"gamma_red":100,"gamma_green":100,"gamma_blue":100,"gamma_cold":100,"gamma_warm":100,"curve_coe":1}}],"product_common":[{"type":"ezc.product_common.indicator","subtype":0,"driver":{"output":1000},"events":[{"name":"setup_mode_start","mode":"breathe","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0,"interrupt_forbidden":true},{"name":"setup_started","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"setup_successful","mode":"restore"},{"name":"setup_failed","mode":"solid","color_select":2,"cct":10,"max_brightness":100},{"name":"identification_start","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":0},{"name":"identification_stop","mode":"restore"},{"name":"identification_blink","mode":"blink","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_breathe","mode":"breathe","speed":1000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":15000},{"name":"identification_okay","mode":"blink","speed":2000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":1000},{"name":"identification_channel_change","mode":"blink","speed":16000,"color_select":2,"cct":50,"min_brightness":20,"max_brightness":100,"total_ms":8000},{"name":"identification_finish_effect","mode":"restore"},{"name":"identification_stop_effect","mode":"restore"}]},{"type":"ezc.product_common.factory_reset","subtype":1,"count":3,"auto_trigger":true}],"product":[{"type":"ezc.product.light","subtype":3,"driver":{"output":1000},"data_model":{"power_default":1,"power_bootup":-1,"level_default":50,"level_bootup":-1,"color_mode_default":1,"color_mode_bootup":-1,"temperature_default":4000,"temperature_bootup":-1,"temperature_minimum_default":2200,"temperature_maximum_default":7000}}],"test_mode":[{"type":"ezc.test_mode.common","subtype":1},{"type":"ezc.test_mode.ble","subtype":1},{"type":"ezc.test_mode.light","subtype":1},{"type":"ezc.test_mode.light","subtype":2},{"type":"ezc.test_mode.light","subtype":3}]}
+2026-08-17 12:13:40.576 | matter_one_core: Current Free Memory: 31652, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:40.781 | matter_one_core: Current Free Memory: 31652, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:40.781 | matter_one_core: Current Free Memory: 31512, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:40.781 | matter_one_core: Current Free Memory: 52984, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:40.781 | After CORE TYPE START: Current Free Memory: 52896, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:40.781 | zero_code_product: Current Free Memory: 52896, Minimum Ever Free Size: 30116, Largest Free Block: 22528
+2026-08-17 12:13:42.607 | matter_one_core: Current Free Memory: 69848, Minimum Ever Free Size: 40120, Largest Free Block: 22528
+2026-08-17 12:13:43.018 | matter_one_core: Current Free Memory: 69908, Minimum Ever Free Size: 39976, Largest Free Block: 22528
+2026-08-17 12:13:44.444 | zero_code_utils: Resetting reboot count
+2026-08-17 12:13:44.445 | zero_code_utils: Current Free Memory: 67100, Minimum Ever Free Size: 36952, Largest Free Block: 22528
+2026-08-17 12:13:47.908 | matter_one_core: Current Free Memory: 69816, Minimum Ever Free Size: 36952, Largest Free Block: 22528
+2026-08-17 12:13:50.548 | matter_one_core: Current Free Memory: 69824, Minimum Ever Free Size: 36952, Largest Free Block: 22528
+2026-08-17 12:13:52.988 | matter_one_core: Current Free Memory: 69832, Minimum Ever Free Size: 36952, Largest Free Block: 22528
+2026-08-17 12:13:55.626 | matter_one_core: Current Free Memory: 69832, Minimum Ever Free Size: 36952, Largest Free Block: 22528
+2026-08-17 12:14:00.698 | matter_one_core: Current Free Memory: 69812, Minimum Ever Free Size: 36952, Largest Free Block: 22528
+2026-08-17 12:14:03.135 | matter_one_core: Current Free Memory: 69820, Minimum Ever Free Size: 36952, Largest Free Block: 22528
