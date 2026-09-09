@@ -39,26 +39,35 @@
   - Amazon Alexa；
   - 后续通过 Matter Multi-Admin 加入多个生态。
 
-  ## 当前 ZeroCode 配置
+  ## 当前样机配置（2026-09-09 已烧录、用户确认可用）
 
-  见图 zerocode_config.png
-  当前正式加载到样机中的配置是：
+  配置以实际工厂 BIN 为准；zerocode_config.png 为历史平台截图。
+  当前使用初版 V4 设备数据的修正版：
+
+  `firmware/espressif/ESP ZeroCode_V4J7LD5NCCNYVB2BZXPAES_smart CCT controller2/Devices/1/fctry_cct_fixed_gpio4_cold_gpio5_warm.bin`
+
+  工厂分区地址：0x1F2000，文件大小：0x6000（24576 字节）。
+  SHA-256：e107197a47c99e1cae74386756dc8e6c71fb649a5b55ee891019b64cc9c68ea3。
+  保留初版 V4 的设备身份、配套证书及二维码；主固件仍为 ZeroCode 1.4.0 / 875 Evaluation。
 
   芯片：ESP8684-mini-1 (Zerocode平台上配置的是esp8684-wroom-03, 已验证, 功能完全适配mini-1 所以选用mini-1)
   模式：Lighting Fixture
   控制：Brightness + Temperature
-  Temperature Mode：CCT/Brightness
-  PWM 频率：4000 Hz
-  GPIO5：Cold / CCT
-  GPIO4：Warm / Brightness
+  Temperature Mode：temperature_mode=1（软件冷暖混光）
+  PWM 频率配置：4000 Hz，仪器实测待完成
+  GPIO4：冷白（gpio_cold_or_cct=4）
+  GPIO5：暖白（gpio_warm_or_brightness=5）
   色温范围：2200K–7000K
 
-  但目前只能确认软件成功加载了这些参数，还需要通过 PCB 走线、示波器和真实灯带确认：
+  用户已烧录该修正版并确认功能恢复，作为后续工作的当前可用基线。
+  这是用户对灯光控制的整体功能确认，尚无逐项示波器、负载和温升测量记录。
+  实物功能表现支持 GPIO4→冷白、GPIO5→暖白；历史图纸的颜色对应相反，
+  需要追踪 GPIO→电阻→MOSFET→端子→灯带的实际连接，确定差异在 PCB、标识还是接线。
+  在取得新证据前，不要按旧图纸或平台截图把当前可用配置改回去。
 
-  GPIO5 → 冷白 MOSFET Gate → CW-
-  GPIO4 → 暖白 MOSFET Gate → WW-
-
-  这是当前最重要的硬件验证门槛。
+  当前最重要的硬件验证门槛：测量 GPIO4/GPIO5 及两路 Gate 的 PWM 频率、
+  色温端点和关闭电平，并记录实际冷暖映射；随后验证 12V/24V 及负载温升。
+  详细进度、可用文件和下一步见项目根目录 `项目进度.md`。
 
   ## 第一需求验收标准
 
@@ -119,7 +128,9 @@
   固件烧录          已完成
   设备专属数据烧录  已完成
   Apple Home 配网    已完成
-  GPIO/MOSFET 实测   待完成
+  CCT 控制故障修复   已烧录，用户确认功能恢复（2026-09-09）
+  冷暖/亮度/关灯功能 已获用户整体确认，仪器验收待完成
+  GPIO/MOSFET 实测   波形、电平及实际走线记录待完成
   电流与功率定义     待完成
   保护电路验证       待完成
   外壳设计           待完成
