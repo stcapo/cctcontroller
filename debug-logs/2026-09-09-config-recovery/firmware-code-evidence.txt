@@ -1,0 +1,74 @@
+Source: /Users/apple/Desktop/cctcontroller/firmware/espressif/ESP ZeroCode_QDLOMWSYUCLAYB58ONN6KN_smart CCT controller/Common binaries/all_products_merged.bin
+SHA256: e0e066937becaeb76d782060a4c709cadb2e89ee49a0ed20485d6e34f857f1bf
+GNU RISC-V objdump; only relevant non-secret disassembly retained.
+
+Address range 4200585e through 42005860
+4200585e:	4501                	li	a0,0
+42005860:	8082                	ret
+
+Address range 42008c48 through 42008c92
+42008c48:	00b14783          	lbu	a5,11(sp)
+42008c4c:	3c123937          	lui	s2,0x3c123
+42008c50:	0070                	addi	a2,sp,12
+42008c52:	00f48323          	sb	a5,6(s1)
+42008c56:	3a490593          	addi	a1,s2,932 # 0x3c1233a4
+42008c5a:	8522                	mv	a0,s0
+42008c5c:	161fc0ef          	jal	0x421055bc
+42008c60:	4985                	li	s3,1
+42008c62:	01351c63          	bne	a0,s3,0x42008c7a
+42008c66:	00113097          	auipc	ra,0x113
+42008c6a:	04a080e7          	jalr	74(ra) # 0x4211bcb0
+42008c6e:	86aa                	mv	a3,a0
+42008c70:	3a490893          	addi	a7,s2,932
+42008c74:	28600813          	li	a6,646
+42008c78:	b7a9                	j	0x42008bc2
+42008c7a:	4732                	lw	a4,12(sp)
+42008c7c:	05c4c783          	lbu	a5,92(s1)
+42008c80:	3c123937          	lui	s2,0x3c123
+42008c84:	00173713          	seqz	a4,a4
+42008c88:	070e                	slli	a4,a4,0x3
+42008c8a:	9bdd                	andi	a5,a5,-9
+42008c8c:	8fd9                	or	a5,a5,a4
+42008c8e:	04f48e23          	sb	a5,92(s1)
+42008c92:	0070                	addi	a2,sp,12
+
+Address range 42024c78 through 42024cc8
+42024c78:	fe360317          	auipc	t1,0xfe360
+42024c7c:	8cc302e7          	jalr	t0,-1844(t1) # 0x40384544
+42024c80:	bdfe00ef          	jal	0x4200585e
+42024c84:	842a                	mv	s0,a0
+42024c86:	3c12f4b7          	lui	s1,0x3c12f
+42024c8a:	c10d                	beqz	a0,0x42024cac
+42024c8c:	862a                	mv	a2,a0
+42024c8e:	3c12f537          	lui	a0,0x3c12f
+42024c92:	06448593          	addi	a1,s1,100 # 0x3c12f064
+42024c96:	12050513          	addi	a0,a0,288 # 0x3c12f120
+42024c9a:	fdfdc097          	auipc	ra,0xfdfdc
+42024c9e:	9fe080e7          	jalr	-1538(ra) # 0x40000698
+42024ca2:	8522                	mv	a0,s0
+42024ca4:	fe360317          	auipc	t1,0xfe360
+42024ca8:	8c430067          	jr	-1852(t1) # 0x40384568
+42024cac:	004f70ef          	jal	0x4211bcb0
+42024cb0:	3c12f637          	lui	a2,0x3c12f
+42024cb4:	86aa                	mv	a3,a0
+42024cb6:	06448713          	addi	a4,s1,100
+42024cba:	14460613          	addi	a2,a2,324 # 0x3c12f144
+42024cbe:	06448593          	addi	a1,s1,100
+42024cc2:	4509                	li	a0,2
+42024cc4:	03cf70ef          	jal	0x4211bd00
+42024cc8:	bfe9                	j	0x42024ca2
+
+Address range 4202997c through 420299a6
+4202997c:	ac49a783          	lw	a5,-1340(s3)
+42029980:	86aa                	mv	a3,a0
+42029982:	0187c783          	lbu	a5,24(a5)
+42029986:	8ba1                	andi	a5,a5,8
+42029988:	2c078663          	beqz	a5,0x42029c54
+4202998c:	3c1307b7          	lui	a5,0x3c130
+42029990:	bfc78793          	addi	a5,a5,-1028 # 0x3c12fbfc
+42029994:	3c130637          	lui	a2,0x3c130
+42029998:	79090713          	addi	a4,s2,1936
+4202999c:	5c460613          	addi	a2,a2,1476 # 0x3c1305c4
+420299a0:	79090593          	addi	a1,s2,1936
+420299a4:	450d                	li	a0,3
+420299a6:	35af20ef          	jal	0x4211bd00

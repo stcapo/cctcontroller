@@ -1,0 +1,207 @@
+{
+  "config_version": 3,
+  "pre_driver": [
+    {
+      "type": "ezc.pre_driver.power_management",
+      "enable_light_sleep": true,
+      "max_freq_mhz": 160,
+      "min_freq_mhz": 10
+    }
+  ],
+  "driver": [
+    {
+      "id": 1000,
+      "type": "ezc.driver.led",
+      "name": "pwm",
+      "lighting_config": {
+        "enable_gradient": true,
+        "enable_memory": false,
+        "enable_lowpower": false,
+        "sync_change_brightness": true,
+        "disable_auto_on": true,
+        "beads_comb": 3,
+        "fades_ms": 800
+      },
+      "pwm_config": {
+        "pwm_hz": 4000,
+        "temperature_mode": 1,
+        "gpio_red": -1,
+        "gpio_green": -1,
+        "gpio_blue": -1,
+        "gpio_cold_or_cct": 4,
+        "gpio_warm_or_brightness": 5
+      },
+      "hardware_config": {
+        "white_min": 10,
+        "white_max": 100,
+        "white_power_max": 100,
+        "rgb_min": 10,
+        "rgb_max": 100,
+        "rgb_power_max": 300
+      },
+      "gamma_config": {
+        "enable_gamma_adjust": true,
+        "gamma_red": 100,
+        "gamma_green": 100,
+        "gamma_blue": 100,
+        "gamma_cold": 100,
+        "gamma_warm": 100,
+        "curve_coe": 1
+      }
+    }
+  ],
+  "product_common": [
+    {
+      "type": "ezc.product_common.indicator",
+      "subtype": 0,
+      "driver": {
+        "output": 1000
+      },
+      "events": [
+        {
+          "name": "setup_mode_start",
+          "mode": "breathe",
+          "speed": 2000,
+          "color_select": 2,
+          "cct": 50,
+          "min_brightness": 20,
+          "max_brightness": 100,
+          "total_ms": 0,
+          "interrupt_forbidden": true
+        },
+        {
+          "name": "setup_started",
+          "mode": "breathe",
+          "speed": 1000,
+          "color_select": 2,
+          "cct": 50,
+          "min_brightness": 20,
+          "max_brightness": 100,
+          "total_ms": 0
+        },
+        {
+          "name": "setup_successful",
+          "mode": "restore"
+        },
+        {
+          "name": "setup_failed",
+          "mode": "solid",
+          "color_select": 2,
+          "cct": 10,
+          "max_brightness": 100
+        },
+        {
+          "name": "identification_start",
+          "mode": "blink",
+          "speed": 1000,
+          "color_select": 2,
+          "cct": 50,
+          "min_brightness": 20,
+          "max_brightness": 100,
+          "total_ms": 0
+        },
+        {
+          "name": "identification_stop",
+          "mode": "restore"
+        },
+        {
+          "name": "identification_blink",
+          "mode": "blink",
+          "speed": 1000,
+          "color_select": 2,
+          "cct": 50,
+          "min_brightness": 20,
+          "max_brightness": 100,
+          "total_ms": 1000
+        },
+        {
+          "name": "identification_breathe",
+          "mode": "breathe",
+          "speed": 1000,
+          "color_select": 2,
+          "cct": 50,
+          "min_brightness": 20,
+          "max_brightness": 100,
+          "total_ms": 15000
+        },
+        {
+          "name": "identification_okay",
+          "mode": "blink",
+          "speed": 2000,
+          "color_select": 2,
+          "cct": 50,
+          "min_brightness": 20,
+          "max_brightness": 100,
+          "total_ms": 1000
+        },
+        {
+          "name": "identification_channel_change",
+          "mode": "blink",
+          "speed": 16000,
+          "color_select": 2,
+          "cct": 50,
+          "min_brightness": 20,
+          "max_brightness": 100,
+          "total_ms": 8000
+        },
+        {
+          "name": "identification_finish_effect",
+          "mode": "restore"
+        },
+        {
+          "name": "identification_stop_effect",
+          "mode": "restore"
+        }
+      ]
+    },
+    {
+      "type": "ezc.product_common.factory_reset",
+      "subtype": 1,
+      "count": 3,
+      "auto_trigger": true
+    }
+  ],
+  "product": [
+    {
+      "type": "ezc.product.light",
+      "subtype": 3,
+      "driver": {
+        "output": 1000
+      },
+      "data_model": {
+        "power_default": 1,
+        "power_bootup": -1,
+        "level_default": 50,
+        "level_bootup": -1,
+        "color_mode_default": 1,
+        "color_mode_bootup": -1,
+        "temperature_default": 4000,
+        "temperature_bootup": -1,
+        "temperature_minimum_default": 2200,
+        "temperature_maximum_default": 7000
+      }
+    }
+  ],
+  "test_mode": [
+    {
+      "type": "ezc.test_mode.common",
+      "subtype": 1
+    },
+    {
+      "type": "ezc.test_mode.ble",
+      "subtype": 1
+    },
+    {
+      "type": "ezc.test_mode.light",
+      "subtype": 1
+    },
+    {
+      "type": "ezc.test_mode.light",
+      "subtype": 2
+    },
+    {
+      "type": "ezc.test_mode.light",
+      "subtype": 3
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "created": "2026-09-09T16:03:24.155066+08:00",
+  "source": "/Users/apple/Desktop/cctcontroller/firmware/espressif/ESP ZeroCode_V4J7LD5NCCNYVB2BZXPAES_smart CCT controller2/Devices/1/fctry.bin",
+  "source_sha256": "5b5040a6a016f3940a0aea299dd83d3e62ef67cbd57ba8f3e3047996e207b2cc",
+  "output": "/Users/apple/Desktop/cctcontroller/firmware/espressif/ESP ZeroCode_V4J7LD5NCCNYVB2BZXPAES_smart CCT controller2/Devices/1/fctry_cct_fixed_gpio4_cold_gpio5_warm.bin",
+  "output_sha256": "e107197a47c99e1cae74386756dc8e6c71fb649a5b55ee891019b64cc9c68ea3",
+  "bytes": 24576,
+  "flash_offset": "0x1F2000",
+  "flash_end_inclusive": "0x1F7FFF",
+  "changes": [
+    {
+      "field": "driver[0].pwm_config.temperature_mode",
+      "before": 0,
+      "after": 1,
+      "file_offset": "0x222"
+    },
+    {
+      "field": "driver[0].pwm_config.gpio_cold_or_cct",
+      "before": 5,
+      "after": 4,
+      "file_offset": "0x264"
+    },
+    {
+      "field": "driver[0].pwm_config.gpio_warm_or_brightness",
+      "before": 4,
+      "after": 5,
+      "file_offset": "0x280"
+    }
+  ],
+  "changed_byte_offsets": [
+    "0x64",
+    "0x65",
+    "0x66",
+    "0x67",
+    "0x7c",
+    "0x7d",
+    "0x7e",
+    "0x7f",
+    "0x222",
+    "0x264",
+    "0x280"
+  ],
+  "other_bytes_unchanged": true,
+  "source_unchanged": true,
+  "configuration_json_verified": true,
+  "configuration_data_crc": "0x7d5b8f94",
+  "configuration_entry_crc": "0xebd79ad1",
+  "page_and_entry_crcs_verified": true,
+  "blob_indexes_verified": true,
+  "nvs_audit": {
+    "active_pages": 5,
+    "entries": 35,
+    "existing_data_crc_issues": [
+      {
+        "offset": "0x1bc0",
+        "key": "vendor-name"
+      }
+    ]
+  },
+  "pwm_config": {
+    "pwm_hz": 4000,
+    "temperature_mode": 1,
+    "gpio_red": -1,
+    "gpio_green": -1,
+    "gpio_blue": -1,
+    "gpio_cold_or_cct": 4,
+    "gpio_warm_or_brightness": 5
+  },
+  "hardware_tested": false
+}

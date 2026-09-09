@@ -1,0 +1,174 @@
+[
+  {
+    "alias": "QD_original",
+    "source": "/Users/apple/Desktop/cctcontroller/firmware/espressif/ESP ZeroCode_QDLOMWSYUCLAYB58ONN6KN_smart CCT controller/Devices/1/fctry.bin",
+    "sha256": "826dc3234079979dfca52844e026ef445faff8a33c18b4deefa94d84e7f32ee3",
+    "namespace": "matter_one",
+    "key": "configuration",
+    "blob_bytes": 2851,
+    "configuration_entry_offset": "0x60",
+    "configuration_data_offset": "0x80",
+    "configuration_crc_ok": true,
+    "fields": {
+      "pwm_hz": {
+        "value": 4000,
+        "file_offset": "0x20a",
+        "bytes_hex": "34303030"
+      },
+      "temperature_mode": {
+        "value": 1,
+        "file_offset": "0x222",
+        "bytes_hex": "31"
+      },
+      "gpio_cold_or_cct": {
+        "value": 5,
+        "file_offset": "0x264",
+        "bytes_hex": "35"
+      },
+      "gpio_warm_or_brightness": {
+        "value": 4,
+        "file_offset": "0x280",
+        "bytes_hex": "34"
+      },
+      "temperature_minimum_default": {
+        "value": 2200,
+        "file_offset": "0xa94",
+        "bytes_hex": "32323030"
+      },
+      "temperature_maximum_default": {
+        "value": 7000,
+        "file_offset": "0xab7",
+        "bytes_hex": "37303030"
+      }
+    }
+  },
+  {
+    "alias": "QD_swap",
+    "source": "/Users/apple/Desktop/cctcontroller/firmware/espressif/ESP ZeroCode_QDLOMWSYUCLAYB58ONN6KN_smart CCT controller/Devices/1/fctry_gpio4_gpio5_swapped.bin",
+    "sha256": "b9da0e05e3ce0700e450648957ecfed1a62f1218bd7066e0565f722b8d1d4b4a",
+    "namespace": "matter_one",
+    "key": "configuration",
+    "blob_bytes": 2851,
+    "configuration_entry_offset": "0x60",
+    "configuration_data_offset": "0x80",
+    "configuration_crc_ok": true,
+    "fields": {
+      "pwm_hz": {
+        "value": 4000,
+        "file_offset": "0x20a",
+        "bytes_hex": "34303030"
+      },
+      "temperature_mode": {
+        "value": 1,
+        "file_offset": "0x222",
+        "bytes_hex": "31"
+      },
+      "gpio_cold_or_cct": {
+        "value": 4,
+        "file_offset": "0x264",
+        "bytes_hex": "34"
+      },
+      "gpio_warm_or_brightness": {
+        "value": 5,
+        "file_offset": "0x280",
+        "bytes_hex": "35"
+      },
+      "temperature_minimum_default": {
+        "value": 2200,
+        "file_offset": "0xa94",
+        "bytes_hex": "32323030"
+      },
+      "temperature_maximum_default": {
+        "value": 7000,
+        "file_offset": "0xab7",
+        "bytes_hex": "37303030"
+      }
+    }
+  },
+  {
+    "alias": "V4_original",
+    "source": "/Users/apple/Desktop/cctcontroller/firmware/espressif/ESP ZeroCode_V4J7LD5NCCNYVB2BZXPAES_smart CCT controller2/Devices/1/fctry.bin",
+    "sha256": "5b5040a6a016f3940a0aea299dd83d3e62ef67cbd57ba8f3e3047996e207b2cc",
+    "namespace": "matter_one",
+    "key": "configuration",
+    "blob_bytes": 2851,
+    "configuration_entry_offset": "0x60",
+    "configuration_data_offset": "0x80",
+    "configuration_crc_ok": true,
+    "fields": {
+      "pwm_hz": {
+        "value": 4000,
+        "file_offset": "0x20a",
+        "bytes_hex": "34303030"
+      },
+      "temperature_mode": {
+        "value": 0,
+        "file_offset": "0x222",
+        "bytes_hex": "30"
+      },
+      "gpio_cold_or_cct": {
+        "value": 5,
+        "file_offset": "0x264",
+        "bytes_hex": "35"
+      },
+      "gpio_warm_or_brightness": {
+        "value": 4,
+        "file_offset": "0x280",
+        "bytes_hex": "34"
+      },
+      "temperature_minimum_default": {
+        "value": 2200,
+        "file_offset": "0xa94",
+        "bytes_hex": "32323030"
+      },
+      "temperature_maximum_default": {
+        "value": 7000,
+        "file_offset": "0xab7",
+        "bytes_hex": "37303030"
+      }
+    }
+  },
+  {
+    "alias": "V4_second",
+    "source": "/Users/apple/Desktop/cctcontroller/firmware/espressif/2-ESP ZeroCode_V4J7LD5NCCNYVB2BZXPAES_smart CCT controller2/Devices/1/fctry.bin",
+    "sha256": "110cf8cb68c36b00adffef06352a8fed5dff933d6d2411e1b674b13a14502d0b",
+    "namespace": "matter_one",
+    "key": "configuration",
+    "blob_bytes": 2851,
+    "configuration_entry_offset": "0x60",
+    "configuration_data_offset": "0x80",
+    "configuration_crc_ok": true,
+    "fields": {
+      "pwm_hz": {
+        "value": 4000,
+        "file_offset": "0x20a",
+        "bytes_hex": "34303030"
+      },
+      "temperature_mode": {
+        "value": 1,
+        "file_offset": "0x222",
+        "bytes_hex": "31"
+      },
+      "gpio_cold_or_cct": {
+        "value": 5,
+        "file_offset": "0x264",
+        "bytes_hex": "35"
+      },
+      "gpio_warm_or_brightness": {
+        "value": 4,
+        "file_offset": "0x280",
+        "bytes_hex": "34"
+      },
+      "temperature_minimum_default": {
+        "value": 2200,
+        "file_offset": "0xa94",
+        "bytes_hex": "32323030"
+      },
+      "temperature_maximum_default": {
+        "value": 7000,
+        "file_offset": "0xab7",
+        "bytes_hex": "37303030"
+      }
+    }
+  }
+]
